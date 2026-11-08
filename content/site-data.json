@@ -1,0 +1,1213 @@
+{
+ "site": {
+  "name": "Ike Ngala",
+  "title": "Marketing Portfolio",
+  "email": "ike.ngala@gmail.com",
+  "phone": "+44 7553 056723",
+  "linkedin": "https://www.linkedin.com/in/ikengala/",
+  "fonts": {
+   "headings": "Manrope 500",
+   "body": "Nunito Sans 400"
+  },
+  "colors": {
+   "black": "#000000",
+   "white": "#ffffff",
+   "blue": "#64a6c9",
+   "yellow": "#ffd15c",
+   "red": "#ca2216",
+   "redDark": "#bb2217"
+  }
+ },
+ "pages": [
+  {
+   "slug": "home",
+   "title": "Home",
+   "file": "index.html",
+   "originalUrl": "https://ikengala.squarespace.com/",
+   "cover": null,
+   "sections": [
+    {
+     "index": 0,
+     "theme": "white",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Ike Ngala\nMarketing Portfolio\n\nHi, I’m Ike!\n\nI’m a Management graduate specializing in brand strategy and audience growth.\n\nAcademically, I’ve built a strong grounding in marketing theory and management fundamentals, and have also spent the last few years running the full marketing function for a se",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h1 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Ike Ngala</h1>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/b4ec954a-07fc-4ba4-b8b5-76d8f7c6f19f/IMG_4307.jpg",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/home/img-4307.jpg"
+      },
+      {
+       "type": "text",
+       "html": "<h3 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Marketing Portfolio</h3>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\">Hi, I’m Ike!</p><p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\">I’m a Management graduate specializing in brand strategy and audience growth.</p><p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\">Academically, I’ve built a strong grounding in marketing theory and management fundamentals, and have also spent the last few years running the full marketing function for a self-directed project: content strategy, press relations, audience growth, brand positioning, and audience data analysis. I am currently sharpening that analytical edge further with Meta Blueprint and Google Analytics 4 certifications.</p><p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\">I believe I bring optimism, energy, creative instinct, and real-world experience with dealing with marketing projects &amp; campaigns!</p>",
+       "color": "rgb(0, 0, 0)"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "light"
+    },
+    {
+     "index": 1,
+     "theme": "black",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Introducing\n\nOver the last few years, I have built and run the marketing, content, and distribution strategy for my independent music project that has reached listeners in 165+ countries. This includes engineering viral moments that have become sustained, compounding growth, and landing simultaneous",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<div class=\"sqsrte-scaled-text-container loaded\"><span class=\"sqsrte-scaled-text\" style=\"font-size: 122.8px;\"><h1 style=\"text-align: center; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\">Introducing</span></h1></span></div>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\">Over the last few years, I have built and run the marketing, content, and distribution strategy for my independent music project that has reached listeners in 165+ countries. This includes engineering viral moments that have become sustained, compounding growth, and landing simultaneous editorial placements over four continents. This project is the spine of this portfolio: Three campaigns, each showcasing a different area of growth; virality, press, and long-form brand building.</span></p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/0e340241-d6cd-4f0e-b3a4-1bb1ae6929f5/IMG_2921.JPG",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/home/img-2921.jpg"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "dark"
+    },
+    {
+     "index": 2,
+     "theme": "black",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Before I Go Away\nGalatea\nFavorite",
+     "blocks": [],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "dark"
+    },
+    {
+     "index": 3,
+     "theme": "white",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "My Skills & Tools",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">My Skills &amp; Tools</h2>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/be3424d3-8325-4d66-9cf8-1a82ff38351e/WIX-Logo.png",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/home/tool-wix.png"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/ae23e244-621c-49a2-920c-4086836125d8/Capcut-Logo-PNG-File.png",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/home/tool-capcut.png"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/5e9f7339-ce18-4e8b-be8e-a63267fb981f/Canva_logo.svg.png",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/home/tool-canva.png"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/e1415687-71f8-42fb-bfb0-0c5d93d9b346/LumaFusion-Logo.png",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/home/tool-lumafusion.png"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/5976facf-a734-4e86-a4c7-aa9fea866dfc/Google_Workspace_Logo.svg.png",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/home/tool-google-workspace.png"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "light"
+    }
+   ]
+  },
+  {
+   "slug": "before-i-go-away",
+   "title": "Before I Go Away",
+   "file": "projects/before-i-go-away.html",
+   "originalUrl": "https://ikengala.squarespace.com/home/beforeigoaway",
+   "cover": "assets/images/covers/before-i-go-away.jpg",
+   "sections": [
+    {
+     "index": 0,
+     "theme": "light",
+     "bgImage": null,
+     "bgVideo": "<video playsinline=\"true\" webkit-playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"\" src=\"blob:https://ikengala.squarespace.com/44327b5e-d937-4a66-992d-c05890c83e10\"></video>",
+     "text": "Before I Go Away (released March 2025) is the clearest proof-of-concept in the IkeN catalog, not because it was the most meticulously planned campaign, but rather because it wasn’t. The track generated organic TikTok virality a month after release, then did so again roughly a year later, with each m",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/1a9dae70-53f2-4a56-8f64-842d547906c0/Copy_of_Before_I_Go_Away_-_1-removebg-preview.png",
+       "alt": "",
+       "href": "https://youtu.be/2_dct1jkoIw?si=Oq4PZ6AVF3oIRgYl",
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/before-i-go-away/hero-cutout.png"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\"><em>Before I Go Away </em>(released March 2025) is the clearest proof-of-concept in the IkeN catalog, not because it was the most meticulously planned campaign, but rather because it wasn’t. The track generated organic TikTok virality a month after release, then did so again roughly a year later, with each moment requiring a different analysis of what was happening in real time. </span></p><p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"></p><p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"></p><p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\">This case study demonstrates my ability to recognize audience signals in real time, and convert them into durable growth, geographic reach, catalog plays, and audience retention.</span></p>",
+       "color": "rgb(255, 255, 255)"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "backgroundVideo": "assets/videos/shared/blue-background.mp4",
+     "colorTheme": "blue"
+    },
+    {
+     "index": 1,
+     "theme": "light",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Trend-Responsive Content Creation",
+     "blocks": [
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "title": "Trend-Responsive Content Creation",
+         "html": "<p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">During each campaign cycle, TikTok was the main attention driver. Once the track started gaining traction on TikTok, I produced and posted follow-up content built around the same sound, keeping the project inside the platform’s existing momentum rather than competing against it with unrelated content.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Furthermore, I created content centered around existing trends and pop media in order to attract attention, converting fans of other media to fans of the song (specifically, targeting FilmTok &amp; BookTok).</p>"
+        }
+       ]
+      },
+      {
+       "type": "video",
+       "video": {
+        "url": "https://video.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/22d90d7b-f058-4a28-953c-21f71eb2c4f3/{variant}",
+        "id": "22d90d7b-f058-4a28-953c-21f71eb2c4f3",
+        "duration": 47.916667,
+        "aspectRatio": 0.8,
+        "variants": "1080:1350,360:450"
+       },
+       "thumbnail": null,
+       "iframe": null,
+       "file": "assets/videos/before-i-go-away/clip-1.mp4"
+      },
+      {
+       "type": "video",
+       "video": {
+        "url": "https://video.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/a6130df6-8026-4b4b-808e-4e59892c58d3/{variant}",
+        "id": "a6130df6-8026-4b4b-808e-4e59892c58d3",
+        "duration": 50.766667,
+        "aspectRatio": 1.85,
+        "variants": "1998:1080,666:360"
+       },
+       "thumbnail": null,
+       "iframe": null,
+       "file": "assets/videos/before-i-go-away/clip-2.mp4"
+      },
+      {
+       "type": "video",
+       "video": {
+        "url": "https://video.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/bce84932-009e-4a68-a266-c5bb4e2a8e6b/{variant}",
+        "id": "bce84932-009e-4a68-a266-c5bb4e2a8e6b",
+        "duration": 36.033333,
+        "aspectRatio": 1.7814814814814814,
+        "variants": "1924:1080,642:360"
+       },
+       "thumbnail": null,
+       "iframe": null,
+       "file": "assets/videos/before-i-go-away/clip-3.mp4"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "blue"
+    },
+    {
+     "index": 2,
+     "theme": "light",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "",
+     "blocks": [],
+     "galleryType": "gallery-strips-item",
+     "galleryItems": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/2a5da07b-8ef8-413d-addd-6825893da080/temp_image_590DE304-A452-4620-8165-9BA463829827.jpeg",
+       "alt": "temp_image_590DE304-A452-4620-8165-9BA463829827.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-590de304-a452-4620-8165-9ba463829827.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/305414db-dc83-4b77-b495-13f4bea33b22/temp_image_28632368-8E53-4136-B46E-A1DBC3D2667D.jpeg",
+       "alt": "temp_image_28632368-8E53-4136-B46E-A1DBC3D2667D.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-28632368-8e53-4136-b46e-a1dbc3d2667d.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/78310537-df6a-4a9b-b920-6a0eadb92f34/temp_image_B4DCDB6D-0630-49E2-BA2D-DFBB04AC6AD2.jpeg",
+       "alt": "temp_image_B4DCDB6D-0630-49E2-BA2D-DFBB04AC6AD2.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-b4dcdb6d-0630-49e2-ba2d-dfbb04ac6ad2.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/6bbab3dd-3415-4346-b466-74a9ad17db58/temp_image_BBF72021-2391-469B-A72E-59CD2BFC250A.jpeg",
+       "alt": "temp_image_BBF72021-2391-469B-A72E-59CD2BFC250A.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-bbf72021-2391-469b-a72e-59cd2bfc250a.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/a3f091cd-a395-4655-a273-16047e689e0b/temp_image_91F0A086-DF7B-4ED4-9467-454F86199EA6.jpeg",
+       "alt": "temp_image_91F0A086-DF7B-4ED4-9467-454F86199EA6.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-91f0a086-df7b-4ed4-9467-454f86199ea6.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/2bba4e10-17b5-4386-8149-4b9b360d7d5a/temp_image_76B39AF7-6A29-43B7-8EAD-67D976F6144F.jpeg",
+       "alt": "temp_image_76B39AF7-6A29-43B7-8EAD-67D976F6144F.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-76b39af7-6a29-43b7-8ead-67d976f6144f.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/cb0818e9-7d92-44df-8fa7-952ab450d303/temp_image_117029D1-8E75-41FD-802E-625454E92C44.jpeg",
+       "alt": "temp_image_117029D1-8E75-41FD-802E-625454E92C44.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-117029d1-8e75-41fd-802e-625454e92c44.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/b4f4a0d4-f0f2-45c6-b87f-be7dda7a668f/temp_image_321E5779-0068-48A7-BB13-F53741F7B7FA.jpeg",
+       "alt": "temp_image_321E5779-0068-48A7-BB13-F53741F7B7FA.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-321e5779-0068-48a7-bb13-f53741f7b7fa.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/fc5ab8c6-ef53-4a0d-b476-1f7cf0b06efa/temp_image_F2B79708-1817-4497-9CC3-D67365BFF7B7.jpeg",
+       "alt": "temp_image_F2B79708-1817-4497-9CC3-D67365BFF7B7.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-f2b79708-1817-4497-9cc3-d67365bff7b7.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/3883a22b-5cad-4ee9-b296-c703f9db5f67/temp_image_5B70ACC5-3B62-40D8-A283-E4EC46525DC9.jpeg",
+       "alt": "temp_image_5B70ACC5-3B62-40D8-A283-E4EC46525DC9.jpeg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-5b70acc5-3b62-40d8-a283-e4ec46525dc9.jpeg"
+      }
+     ],
+     "hasLists": 0,
+     "colorTheme": "blue"
+    },
+    {
+     "index": 3,
+     "theme": "light",
+     "bgImage": null,
+     "bgVideo": "<video playsinline=\"true\" webkit-playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"\" src=\"blob:https://ikengala.squarespace.com/3cdf5e1a-ead0-480a-b0e6-78bb790c29ab\"></video>",
+     "text": "Data-Driven Geographic Targeting",
+     "blocks": [
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "title": "Data-Driven Geographic Targeting",
+         "html": "<p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Used streaming and social analytics to identify which regions were actually driving engagement, then weighted content and promotional push toward those markets, turning a random spike into a more deliberate, regionally informed growth strategy.</p>"
+        }
+       ]
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "backgroundVideo": "assets/videos/before-i-go-away/background-geo.mp4",
+     "colorTheme": "blue"
+    },
+    {
+     "index": 4,
+     "theme": "light",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Catalog Conversion Funnel",
+     "blocks": [
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "title": "Catalog Conversion Funnel",
+         "html": "<p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Treated <em>Before I Go Away</em> as an entry point rather than simply as an endpoint, actively directing new listeners toward the back catalog, converting single-song discovery into sustained listening and following, effectively turning passive listeners into fans.</p>"
+        }
+       ]
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "blue"
+    },
+    {
+     "index": 5,
+     "theme": "",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "",
+     "blocks": [],
+     "galleryType": "gallery-strips-item",
+     "galleryItems": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/5fd5b726-8e14-4b30-b7dc-76e3b740e4b8/IMG_7950.jpg",
+       "alt": "IMG_7950.jpg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-7950.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/289bc142-732c-4eea-9e74-d7aecb301f22/IMG_7947.jpg",
+       "alt": "IMG_7947.jpg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-7947.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/cfe5e4d4-cf01-4c45-8af9-0618fc897745/IMG_7948.jpg",
+       "alt": "IMG_7948.jpg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-7948.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/108c4ee8-5990-43ac-8499-82904b2a19a7/IMG_7949.jpg",
+       "alt": "IMG_7949.jpg",
+       "href": null,
+       "file": "assets/images/before-i-go-away/img-7949.jpg"
+      }
+     ],
+     "hasLists": 0,
+     "colorTheme": "blue"
+    },
+    {
+     "index": 6,
+     "theme": "light",
+     "bgImage": null,
+     "bgVideo": "<video playsinline=\"true\" webkit-playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"\" src=\"blob:https://ikengala.squarespace.com/77096f89-219b-406b-961a-022f09767de9\"></video>",
+     "text": "Outcomes\n\nDue to two distinct viral cycles, the track now sits at 250K+ total streams. The first cycle took the song from a 10K stream baseline with approx. 300 daily, to an average of 800 daily streams. The second cycle, starting from an 80K baseline, peaked at 5K daily streams (525% increase) befo",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Outcomes</h2>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\"><strong>Reach</strong></p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Due to two distinct viral cycles, the track now sits at <strong>250K+</strong> total streams. The first cycle took the song from a 10K stream baseline with approx. 300 daily, to an average of 800 daily streams. The second cycle, starting from an <strong>80K baseline</strong>, peaked at <strong>5K daily streams</strong> (525% increase) before settling at a sustained <strong>1K daily average.</strong></p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><strong>Engagement Signals</strong></p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">At peak, the track generated <strong>3000 saves in a single day with 600+ playlist adds</strong>, with a <strong>6.3 streams-per-listener ratio</strong> across the spike month, meaning new listeners were not just streaming the song, but replaying and moving across the catalog.</p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><strong>Geographic Spread</strong></p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">The viral surge concentrated in <strong>South Africa, the UK, the US, France, Kenya, and Saudi Arabia</strong>, and critically, these same markets now form the core of the ongoing catalog audience,  successfully converting a temporary spike into a lasting listener base.</p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><strong>Cross-Platform &amp; Catalog Growth</strong></p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Gained 300+ new followers during the spike. On Apple Music, <strong>daily average listeners are up 431% and plays up 462% year-to-date</strong>, even measured after the peak (which itself reached 1,300 daily plays/400 daily listeners, up from a baseline of 50 plays/30 listeners). On YouTube, growth exceeded the platform’s reporting cap of 999%, with daily plays having risen from 30 daily at the start of the year to a peak of approximately 1600, and is currently sustained at 250.</p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><strong>UGC &amp; Organic Amplification</strong></p>",
+       "color": "rgb(255, 255, 255)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Beyond owned content, the track was also independently used as a sound in <strong>450+ user-generated TikTok videos</strong>; distribution and reach were generated entirely by other creators, with zero paid promotion or coordination on my end.</p>",
+       "color": "rgb(255, 255, 255)"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "backgroundVideo": "assets/videos/shared/blue-background.mp4",
+     "colorTheme": "blue"
+    }
+   ]
+  },
+  {
+   "slug": "galatea",
+   "title": "Galatea",
+   "file": "projects/galatea.html",
+   "originalUrl": "https://ikengala.squarespace.com/home/galatea",
+   "cover": "assets/images/covers/galatea.jpg",
+   "sections": [
+    {
+     "index": 0,
+     "theme": "black-bold",
+     "bgImage": null,
+     "bgVideo": "<video playsinline=\"true\" webkit-playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"\" src=\"blob:https://ikengala.squarespace.com/bbac0ea5-fd53-4bd4-8142-5bcde1d2cc87\"></video>",
+     "text": "Galatea (released October 2023) is a concept album built around the ancient Greek myth of Pygmalion and the statue, Galatea. The album used the tale as a lens for identity, perfectionism, and self-creation.\nI independently led the album’s full marketing and release strategy. The goal was to test whe",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/2a344581-e35c-4dd2-a2e6-6c3fd852961d/IMG_0321-removebg-preview.png",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/galatea/hero-cutout.png"
+      },
+      {
+       "type": "text",
+       "html": "<h4 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--accent\"><em>Galatea </em>(released October 2023) is a concept album built around the ancient Greek myth of Pygmalion and the statue, Galatea. The album used the tale as a lens for identity, perfectionism, and self-creation.</span></h4><h4 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"></h4><h4 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--accent\">I independently led the album’s full marketing and release strategy. The goal was to test whether a concept-driven indie-R&amp;B release could earn international reach and critical credibility off of narrative strength and execution alone.</span></h4>",
+       "color": "rgb(100, 166, 201)"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "backgroundVideo": "assets/videos/galatea/background-hero.mp4",
+     "colorTheme": "galatea"
+    },
+    {
+     "index": 1,
+     "theme": "bright-inverse",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Marketing Strategy Breakdown\nPhased Single Releases",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Marketing Strategy Breakdown</h2>",
+       "color": "rgb(255, 209, 92)"
+      },
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "title": "Phased Single Releases",
+         "html": "<p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Released singles on a monthly cadence in the months ahead of the album, rather than cold-dropping the project. Each release built on the algorithmic and audience momentum of the last, keeping the project visible across a longer discovery window, as well as earning the album close to 200,000 streams across platforms before its official release.</p>"
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/59903acf-45a5-48b6-9ea0-d5cc7549df68/IMG_5337.PNG",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/galatea/img-5337.png"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/84a9bfef-c13f-4f89-8b14-8d4e883076f8/IMG_7913.jpg",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/galatea/img-7913.jpg"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "galatea"
+    },
+    {
+     "index": 2,
+     "theme": "bright-inverse",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Lore-Driven Social Content",
+     "blocks": [
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "title": "Lore-Driven Social Content",
+         "html": "<p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Treated the Pygmalion/Galatea myth as an ongoing narrative, using captions, post sequencing, and visual motifs to drip feed the story across the release cycle. This kept the concept alive between singles, and gave returning followers a reason to keep piecing the narrative together, rather than simply consuming each drop in isolation.</p>"
+        }
+       ]
+      },
+      {
+       "type": "video",
+       "video": {
+        "url": "https://video.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/1cdcaaa9-1021-4883-be6a-95853875937e/{variant}",
+        "id": "1cdcaaa9-1021-4883-be6a-95853875937e",
+        "duration": 69.32,
+        "aspectRatio": 1.7777777777777777,
+        "variants": "1920:1080,640:360"
+       },
+       "thumbnail": null,
+       "iframe": null,
+       "file": "assets/videos/galatea/clip-1.mp4"
+      },
+      {
+       "type": "video",
+       "video": {
+        "url": "https://video.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/4e7ee0a2-08ba-433e-87a8-3fca94808501/{variant}",
+        "id": "4e7ee0a2-08ba-433e-87a8-3fca94808501",
+        "duration": 8.4,
+        "aspectRatio": 1.3333333333333333,
+        "variants": "1440:1080,480:360"
+       },
+       "thumbnail": null,
+       "iframe": null,
+       "file": "assets/videos/galatea/clip-2.mp4"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "galatea"
+    },
+    {
+     "index": 3,
+     "theme": "black",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "",
+     "blocks": [],
+     "galleryType": "gallery-slideshow-item",
+     "galleryItems": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/001efb33-02e6-4f2d-ab5b-329fa8b67303/Divine+Intervention.png",
+       "alt": "Divine Intervention.png",
+       "href": null,
+       "file": "assets/images/galatea/divine-intervention.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/9f3e76dc-18fc-424b-b163-a54a90caca45/Galatea.png",
+       "alt": "Galatea.png",
+       "href": null,
+       "file": "assets/images/galatea/galatea.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/45afff40-7000-40a3-a3b1-3ee248dae9fa/Miss+Me.png",
+       "alt": "Miss Me.png",
+       "href": null,
+       "file": "assets/images/galatea/miss-me.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/67953cc0-a0bb-41ad-878d-79c12a905ada/Sculptor.png",
+       "alt": "Sculptor.png",
+       "href": null,
+       "file": "assets/images/galatea/sculptor.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/2836f6b4-2bd7-489d-b1dc-2b2913936b8b/Tender.png",
+       "alt": "Tender.png",
+       "href": null,
+       "file": "assets/images/galatea/tender.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/246f2bfe-48c4-4f38-a5d6-66943fed014a/The+Intro+%28Intro%29.png",
+       "alt": "The Intro (Intro).png",
+       "href": null,
+       "file": "assets/images/galatea/the-intro-intro.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/1ceacb2c-e995-42aa-b8df-5a31dc2004da/When+Pygs+Fly.png",
+       "alt": "When Pygs Fly.png",
+       "href": null,
+       "file": "assets/images/galatea/when-pygs-fly.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/cbfce030-4f66-40e7-826a-91071c91ea07/temp_image_4D33C1DD-8CC2-49A8-8ADD-68BB1D966E93.jpeg",
+       "alt": "temp_image_4D33C1DD-8CC2-49A8-8ADD-68BB1D966E93.jpeg",
+       "href": null,
+       "file": "assets/images/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/0591ad92-3650-47f4-98fe-4844c2710493/temp_image_56D4BF5B-A773-4B28-8478-C0A5029F25F3.jpeg",
+       "alt": "temp_image_56D4BF5B-A773-4B28-8478-C0A5029F25F3.jpeg",
+       "href": null,
+       "file": "assets/images/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/be88af5c-faf0-4a84-b2e3-d124f32bbfa4/temp_image_716FBB04-ED1F-41F5-9742-340D0BAF85CF.jpeg",
+       "alt": "temp_image_716FBB04-ED1F-41F5-9742-340D0BAF85CF.jpeg",
+       "href": null,
+       "file": "assets/images/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/1be7acfc-f53e-4e32-adb6-29ce2ed00d7c/temp_image_D4936894-ED51-4318-B712-C89368787B75.jpeg",
+       "alt": "temp_image_D4936894-ED51-4318-B712-C89368787B75.jpeg",
+       "href": null,
+       "file": "assets/images/galatea/img-d4936894-ed51-4318-b712-c89368787b75.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/2f73cdd6-934d-4bb1-a361-8379abaebba2/temp_image_E9B61C34-175C-46E0-901D-C32AD23CEBDA.jpeg",
+       "alt": "temp_image_E9B61C34-175C-46E0-901D-C32AD23CEBDA.jpeg",
+       "href": null,
+       "file": "assets/images/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda.jpeg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/f007bfc5-2a43-4f6f-a415-4cf8e680d1b2/Greek+Tragedies.png",
+       "alt": "Greek Tragedies.png",
+       "href": null,
+       "file": "assets/images/galatea/greek-tragedies.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/3f7ed855-16ac-4559-be62-d4a21e255140/Pygs+Fly+%28Interlude%29.png",
+       "alt": "Pygs Fly (Interlude).png",
+       "href": null,
+       "file": "assets/images/galatea/pygs-fly-interlude.png"
+      }
+     ],
+     "hasLists": 0,
+     "colorTheme": "galatea"
+    },
+    {
+     "index": 4,
+     "theme": "bright-inverse",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Press Pitching",
+     "blocks": [
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "title": "Press Pitching",
+         "html": "<p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Pitched directly to blogs and curators, using the Greek mythology concept and a broader “East African R&amp;B as just R&amp;B” positioning as a press hook, giving outlets a clear angle beyond the simple “new single out now.”</p>"
+        }
+       ]
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "galatea"
+    },
+    {
+     "index": 5,
+     "theme": "bright-inverse",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "View fullsize\nView fullsize\nView fullsize\nView fullsize\nView fullsize\nView fullsize\nView fullsize\nView fullsize\nView fullsize",
+     "blocks": [],
+     "galleryType": "gallery-strips-item",
+     "galleryItems": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/55b80252-c122-47df-b654-db1820819d79/IMG_7916.jpg",
+       "alt": "IMG_7916.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7916.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/5687ebfc-a0f3-4067-83a7-702e093925df/IMG_7917.jpg",
+       "alt": "IMG_7917.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7917.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/074d9063-90d0-42eb-9c97-3a92251ef488/IMG_7918.jpg",
+       "alt": "IMG_7918.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7918.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/9491c65c-3fd2-466e-a6d6-6c4fd6fd5f40/IMG_7919.jpg",
+       "alt": "IMG_7919.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7919.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/c7456ff7-9d6e-4e67-961a-8d869203efa8/IMG_7920.jpg",
+       "alt": "IMG_7920.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7920.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/afa3685e-50f6-4a23-adea-322b240d112d/IMG_7921.jpg",
+       "alt": "IMG_7921.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7921.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/2b30ade0-929b-4707-a3fd-d168c543bd67/IMG_7924.jpg",
+       "alt": "IMG_7924.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7924.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/d2ac5315-bcf8-407a-b4dd-0bf343946414/IMG_7922.jpg",
+       "alt": "IMG_7922.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7922.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/ad377f49-fabe-44d7-9f41-8f0e1225262e/IMG_7923.jpg",
+       "alt": "IMG_7923.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7923.jpg"
+      }
+     ],
+     "hasLists": 0,
+     "colorTheme": "galatea"
+    },
+    {
+     "index": 6,
+     "theme": "bright-inverse",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Branded Visual Content",
+     "blocks": [
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "title": "Branded Visual Content",
+         "html": "<p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Produced music videos and visualisers with a consistent color palette and visual language tied to the mythological concept. This gave the project a recognizable identity across platforms, and reinforced the narrative even for listeners who had not engaged with lyrics.</p>"
+        }
+       ]
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "galatea"
+    },
+    {
+     "index": 7,
+     "theme": "black",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "",
+     "blocks": [],
+     "galleryType": "gallery-slideshow-item",
+     "galleryItems": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/8779213d-74d4-4ef3-850e-5e1eb42fc73a/Miss+Me+Vid+Cover.png",
+       "alt": "Miss Me Vid Cover.png",
+       "href": "https://youtu.be/IhTsx19Xz7g?si=kELCjV_Y0JZPvSu3",
+       "file": "assets/images/galatea/miss-me-vid-cover.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/5a9fe1ab-e8a0-42c5-8063-4d103c3dd6e6/Galatea+Vid+Cover.png",
+       "alt": "Galatea Vid Cover.png",
+       "href": "https://youtu.be/q6n9-YpYnUI?si=fGVvtN2CgS5DhfJj",
+       "file": "assets/images/galatea/galatea-vid-cover.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/21d45dd2-5267-4b64-a99e-1e34487fa7f2/Your+Turn+Vid+Cover.png",
+       "alt": "Your Turn Vid Cover.png",
+       "href": "https://youtu.be/kGn6ozXIJ9c?si=yTI4r4vjpxVwvXAa",
+       "file": "assets/images/galatea/your-turn-vid-cover.png"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/a0c1c035-d783-45f2-b510-72bfa9ca1ec5/DivInt+Vid+Cover.png",
+       "alt": "DivInt Vid Cover.png",
+       "href": "https://youtu.be/uUPY8g4r6kw?si=krdsWkQhUFs7UEVd",
+       "file": "assets/images/galatea/divint-vid-cover.png"
+      }
+     ],
+     "hasLists": 0,
+     "colorTheme": "galatea"
+    },
+    {
+     "index": 8,
+     "theme": "bright",
+     "bgImage": null,
+     "bgVideo": "<video playsinline=\"true\" webkit-playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"\" src=\"blob:https://ikengala.squarespace.com/c5795b4c-8c90-41ba-b790-97e42a35eece\"></video>",
+     "text": "Outcomes\n\nThe strategy was quite successful, leading to organic TikTok and Instagram amplification, an increased number of active listeners, and served as a proof of concept for future projects. Areas of success included:\n\nPre-release singles had generated 180K streams by album release day; the proj",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Outcomes</h2>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">The strategy was quite successful, leading to organic TikTok and Instagram amplification, an increased number of active listeners, and served as a proof of concept for future projects. Areas of success included:</p>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\"><strong>Reach</strong></p>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Pre-release singles had generated 180K streams by album release day; the project has since grown to <strong>450K+ streams</strong> - sustained organic growth well past the initial release window.</p>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><strong>Editorial Coverage</strong></p>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"\" style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Covered by Alfitude, Stereofox, Aipate, Ameyaw Debrah, and Glide Magazine - press pickup spanning African and international outlets. The campaign’s reach also earned Spotify editorial recognition:</p><p class=\"\" style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">IkeN was selected as one of the <strong>Fresh Finds Africa Artist of the Month, July 2024</strong>, placing the project on Spotify’s own radar.</p>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><strong>Playlist Placement</strong></p>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Added to Cocoa Butter, Eastern Vibes (cover placement), Up:Date, Sizzlers, NMF Kenya, POLLEN, and Amazon Music’s “Breakthrough R&amp;B” - spread across independent curators, regional R&amp;B platforms, and DSP editorial playlists.</p>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><strong>Standout Single</strong></p>",
+       "color": "rgb(0, 0, 0)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"\" style=\"text-align: right; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">“Tender” emerged as the campaign’s strongest performer, currently at <strong>120K streams</strong>, validating the lore-driven content strategy’s ability to convert narrative engagement into repeat listening..</p>",
+       "color": "rgb(0, 0, 0)"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "backgroundVideo": "assets/videos/galatea/background-outcomes.mp4",
+     "colorTheme": "yellow"
+    },
+    {
+     "index": 9,
+     "theme": "white-bold",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "",
+     "blocks": [],
+     "galleryType": "gallery-reel-item",
+     "galleryItems": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/73e4a06f-c825-4f0c-95f9-e4e1af507975/IMG_0363.JPG",
+       "alt": "IMG_0363.JPG",
+       "href": null,
+       "file": "assets/images/galatea/img-0363.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/aaecd913-505e-4122-b119-dc5eb1c6e155/IMG_0365.JPG",
+       "alt": "IMG_0365.JPG",
+       "href": null,
+       "file": "assets/images/galatea/img-0365.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/e551b191-7e5e-472c-8aca-30537ec2d734/IMG_0366.JPG",
+       "alt": "IMG_0366.JPG",
+       "href": null,
+       "file": "assets/images/galatea/img-0366.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/6731c253-f97c-47e5-a1b4-4678ea7e5938/IMG_0367.JPG",
+       "alt": "IMG_0367.JPG",
+       "href": null,
+       "file": "assets/images/galatea/img-0367.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/5305dcc1-7e97-4cb5-b7b9-204c5f1bc979/IMG_0368.jpg",
+       "alt": "IMG_0368.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-0368.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/9fef9112-59e5-4e19-8fce-d37f3380dd78/IMG_5376.jpg",
+       "alt": "IMG_5376.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-5376.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/d006b55e-3ad8-43d1-9c7e-7acb65337ef7/IMG_0364.JPG",
+       "alt": "IMG_0364.JPG",
+       "href": null,
+       "file": "assets/images/galatea/img-0364.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/5656fecd-68e9-4836-9b02-b51b7c9263a2/IMG_7915.jpg",
+       "alt": "IMG_7915.jpg",
+       "href": null,
+       "file": "assets/images/galatea/img-7915.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/95e16bd0-e0a9-4fca-96ad-d09f1b87763b/IMG_4979+-+Copy.PNG",
+       "alt": "IMG_4979 - Copy.PNG",
+       "href": null,
+       "file": "assets/images/galatea/img-4979-copy.png"
+      }
+     ],
+     "hasLists": 0,
+     "colorTheme": "light"
+    }
+   ]
+  },
+  {
+   "slug": "favorite",
+   "title": "Favorite",
+   "file": "projects/favorite.html",
+   "originalUrl": "https://ikengala.squarespace.com/home/favorite",
+   "cover": "assets/images/covers/favorite.jpg",
+   "sections": [
+    {
+     "index": 0,
+     "theme": "dark-bold",
+     "bgImage": null,
+     "bgVideo": "<video playsinline=\"true\" webkit-playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"\" src=\"blob:https://ikengala.squarespace.com/b76569ca-96ac-4593-8def-e2ef05b0d363\"></video>",
+     "text": "Favorite (released April 2026) is not so much a strategy case study but rather a validation case study. Throughout the course of the BCZIKN project, one of my biggest challenges has been figuring out how to market East African-made music as more than the geographic label that precedes it. Especially",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/dab9edfd-a909-4508-b08e-9817bdb3bce2/favorite__1_-removebg-preview.png",
+       "alt": "",
+       "href": null,
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/favorite/hero-cutout.png"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--accent\"><em>Favorite </em>(released April 2026) is not so much a strategy case study but rather a <em>validation </em>case study. Throughout the course of the BCZIKN project, one of my biggest challenges has been figuring out how to market East African-made music as more than the geographic label that precedes it. Especially in the beginning of this project, songs would be routinely filed alongside other “<em>Afro</em>-[X]” tags (afro-indie, afro-R&amp;B, afro-acoustic), regardless of whether the song actually belonged to that genre, or whether its audience was even based in Africa to begin with.</span></p><p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"></p><p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--accent\"><em>Favorite</em> is, to date, the clearest evidence yet that this is starting to shift; upon release, the single saw an editorial sweep from both regional outlets and international R&amp;B outlets. No new tactic has driven this result - instead, it is a consistent identity and brand messaging finally being read correctly by editorial curators, instead of filtered through a geographic label first.</span></p>",
+       "color": "rgb(255, 209, 92)"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "backgroundVideo": "assets/videos/favorite/background.mp4",
+     "colorTheme": "red"
+    },
+    {
+     "index": 1,
+     "theme": "dark-bold",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "Consistent Press Messaging",
+     "blocks": [
+      {
+       "type": "accordion",
+       "items": [
+        {
+         "title": "Consistent Press Messaging",
+         "html": "<p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">For the last few years that the project has been ongoing, the same position has been held: that East African music doesn’t have to sound “African” to be considered East African, and furthermore, that East Africans <strong><em>can and do </em></strong>make music that isn’t simply Afro-derivative. Furthermore, that the music industry has yet to make room for African artists whose work doesn’t fit a stereotyped, genre-coded idea of what “African” music is supposed to sound like. Favorite’s reception is the clearest sign thyet that this position is starting to be heard.</p>"
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/00e02589-54cd-4875-89d6-1ff6b0441a9c/IMG_0646.jpg",
+       "alt": "",
+       "href": "https://blavity.com/blavity-original/east-african-artists-afrobeats",
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/favorite/img-0646.jpg"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/f51a83b2-d655-42db-bd7d-ef237b8dd930/IMG_0645.jpeg",
+       "alt": "",
+       "href": "https://leftlion.co.uk/features/2024/02/we-chat-to-kenyan-alt-rnb-artist-iken-all-about-his-debut-album-galatea/",
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/favorite/img-0645.jpeg"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/383936ea-2827-4612-b113-4b4c211681e0/IMG_0647.jpeg",
+       "alt": "",
+       "href": "https://blavity.com/blavity-original/east-african-artists-afrobeats",
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/favorite/img-0647.jpeg"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/e7969297-888a-493b-8d54-c5552a77bc43/IMG_0644.jpeg",
+       "alt": "",
+       "href": "https://leftlion.co.uk/features/2024/02/we-chat-to-kenyan-alt-rnb-artist-iken-all-about-his-debut-album-galatea/",
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/favorite/img-0644.jpeg"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/a713d6ba-fcc1-4b93-80c5-371a8d1f538c/IMG_0648.jpg",
+       "alt": "",
+       "href": "https://blavity.com/blavity-original/east-african-artists-afrobeats",
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/favorite/img-0648.jpg"
+      },
+      {
+       "type": "image",
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/a6b70878-883f-41d6-9312-f89253c8a0e4/IMG_0650.jpg",
+       "alt": "",
+       "href": "https://pointzeroworld.com/2026/05/10/iken-from-emotions-to-music/?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+       "caption": null,
+       "title": null,
+       "subtitle": null,
+       "file": "assets/images/favorite/img-0650.jpg"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "colorTheme": "red"
+    },
+    {
+     "index": 2,
+     "theme": "dark-bold",
+     "bgImage": null,
+     "bgVideo": "<video playsinline=\"true\" webkit-playsinline=\"\" loop=\"\" muted=\"\" autoplay=\"\" src=\"blob:https://ikengala.squarespace.com/1c4a6078-356b-4c39-bb42-b829650c6327\"></video>",
+     "text": "Outcomes\n\nReach + Editorial Coverage\n\nFavorite was quite successful, racking up 10,000 streams in 3 days. By the end of the release period, IkeN sat at 27K monthly listeners.\n\nThe song landed a wide editorial sweep, from local recognition - New Music Friday Kenya - to wider regional playlisting - Ne",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Outcomes</h2>",
+       "color": "rgb(255, 209, 92)"
+      },
+      {
+       "type": "text",
+       "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--accent\"><strong>Reach + Editorial Coverage</strong></span></p>",
+       "color": "rgb(255, 209, 92)"
+      },
+      {
+       "type": "text",
+       "html": "<p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--accent\"><em>Favorite</em> was quite successful, racking up 10,000 streams in 3 days. By the end of the release period, IkeN sat at 27K monthly listeners.</span></p><p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--accent\">The song landed a wide editorial sweep, from local recognition - <strong>New Music Friday Kenya</strong> - to wider regional playlisting - <strong>New Music Friday Naija</strong> (Nigeria), <strong>New Music Friday South Africa</strong>, <strong>Barefoot and Free</strong> (wider Africa vibes playlist), and <strong>Afro&amp;B </strong>(wider African R&amp;B playlist) - to international editorial recognition <strong>R&amp;B Right Now </strong>(Canadian/Global R&amp;B playlist), <strong>Just Dropped </strong>(new UK arrivals), and <strong>New Music Friday UK</strong>, showcasing the shift from Spotify’s editorial system reading IkeN as a cross-regional/internatioally appealing artist instead of a regional one.</span></p>",
+       "color": "rgb(255, 209, 92)"
+      }
+     ],
+     "galleryItems": [],
+     "hasLists": 0,
+     "backgroundVideo": "assets/videos/favorite/background.mp4",
+     "colorTheme": "red"
+    },
+    {
+     "index": 3,
+     "theme": "dark",
+     "bgImage": null,
+     "bgVideo": null,
+     "text": "",
+     "blocks": [],
+     "galleryType": "gallery-reel-item",
+     "galleryItems": [
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/29c4a82c-486e-4e24-a844-a39536328907/IMG_7290.jpg",
+       "alt": "IMG_7290.jpg",
+       "href": null,
+       "file": "assets/images/favorite/img-7290.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/09e5ac1d-ad39-4ce0-bd4b-ffc50af3538f/IMG_7291.jpg",
+       "alt": "IMG_7291.jpg",
+       "href": null,
+       "file": "assets/images/favorite/img-7291.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/3d1096b2-dcc3-4d4f-a1d3-5ac031b972bb/IMG_7292.jpg",
+       "alt": "IMG_7292.jpg",
+       "href": null,
+       "file": "assets/images/favorite/img-7292.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/6935104f-e3e2-4380-a744-8db8808e0427/IMG_7293.jpg",
+       "alt": "IMG_7293.jpg",
+       "href": null,
+       "file": "assets/images/favorite/img-7293.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/fc79c9ca-62c1-450b-b4c3-e939d3ed9456/IMG_7294.jpg",
+       "alt": "IMG_7294.jpg",
+       "href": null,
+       "file": "assets/images/favorite/img-7294.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/0b9202d6-afd0-4d98-8d4e-0f20fc469030/IMG_7295.JPG",
+       "alt": "IMG_7295.JPG",
+       "href": null,
+       "file": "assets/images/favorite/img-7295.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/e9326682-ada8-49b2-a5e8-00ec8211c678/IMG_7296.JPG",
+       "alt": "IMG_7296.JPG",
+       "href": null,
+       "file": "assets/images/favorite/img-7296.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/49d85d5f-e267-4209-8022-c20631db623b/IMG_7297.JPG",
+       "alt": "IMG_7297.JPG",
+       "href": null,
+       "file": "assets/images/favorite/img-7297.jpg"
+      },
+      {
+       "src": "https://images.squarespace-cdn.com/content/v1/6a3ac76b5e667b094d49a9c8/c698a6d5-d630-4943-8931-2077714ce6fa/IMG_7298.jpg",
+       "alt": "IMG_7298.jpg",
+       "href": null,
+       "file": "assets/images/favorite/img-7298.jpg"
+      }
+     ],
+     "hasLists": 0,
+     "colorTheme": "red-dark"
+    }
+   ]
+  }
+ ]
+}
