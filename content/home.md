@@ -4,7 +4,7 @@ _Original URL: https://ikengala.squarespace.com/_
 
 # Ike Ngala
 
-![img-4307](../assets/images/home/img-4307.jpg)
+![Photo of a man standing on harbour rocks in front of the sea and mountains](../assets/images/home/img-4307.jpg)
 
 ### Marketing Portfolio
 
@@ -20,7 +20,7 @@ I believe I bring optimism, energy, creative instinct, and real-world experience
 
 Over the last few years, I have built and run the marketing, content, and distribution strategy for my independent music project that has reached listeners in 165+ countries. This includes engineering viral moments that have become sustained, compounding growth, and landing simultaneous editorial placements over four continents. This project is the spine of this portfolio: Three campaigns, each showcasing a different area of growth; virality, press, and long-form brand building.
 
-![img-2921](../assets/images/home/img-2921.jpg)
+![BCZIKN logo](../assets/images/home/img-2921.jpg)
 
 ## Projects
 
@@ -32,12 +32,12 @@ Over the last few years, I have built and run the marketing, content, and distri
 
 ## My Skills & Tools
 
-![tool-wix](../assets/images/home/tool-wix.png)
+![Wix](../assets/images/home/tool-wix.png)
 
-![tool-capcut](../assets/images/home/tool-capcut.png)
+![CapCut](../assets/images/home/tool-capcut.png)
 
-![tool-canva](../assets/images/home/tool-canva.png)
+![Canva](../assets/images/home/tool-canva.png)
 
-![tool-lumafusion](../assets/images/home/tool-lumafusion.png)
+![LumaFusion](../assets/images/home/tool-lumafusion.png)
 
-![tool-google-workspace](../assets/images/home/tool-google-workspace.png)
+![Google Workspace](../assets/images/home/tool-google-workspace.png)

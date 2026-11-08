@@ -29,6 +29,8 @@ content/
   site-data.json               The same content as structured data (every section,
                                block, colour theme and asset path), handy for
                                feeding into a future redesign.
+  image-descriptions.json      A short description of every image (used as alt
+                               text for screen readers and search engines).
 ```
 
 ## Viewing it

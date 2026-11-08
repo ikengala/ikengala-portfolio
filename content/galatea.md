@@ -2,7 +2,7 @@
 
 _Original URL: https://ikengala.squarespace.com/home/galatea_
 
-![hero-cutout](../assets/images/galatea/hero-cutout.png)
+![Galatea, handwritten title](../assets/images/galatea/hero-cutout.png)
 
 #### *Galatea* (released October 2023) is a concept album built around the ancient Greek myth of Pygmalion and the statue, Galatea. The album used the tale as a lens for identity, perfectionism, and self-creation.
 
@@ -14,9 +14,9 @@ _Original URL: https://ikengala.squarespace.com/home/galatea_
 
 Released singles on a monthly cadence in the months ahead of the album, rather than cold-dropping the project. Each release built on the algorithmic and audience momentum of the last, keeping the project visible across a longer discovery window, as well as earning the album close to 200,000 streams across platforms before its official release.
 
-![img-5337](../assets/images/galatea/img-5337.png)
+![Spotify for Artists screenshot: Galatea at 180,425 all-time streams](../assets/images/galatea/img-5337.png)
 
-![img-7913](../assets/images/galatea/img-7913.jpg)
+![Spotify singles list: Miss Me, Tender and Galatea, all 2023](../assets/images/galatea/img-7913.jpg)
 
 ### Lore-Driven Social Content
 
@@ -28,33 +28,33 @@ Treated the Pygmalion/Galatea myth as an ongoing narrative, using captions, post
 
 **Gallery (slideshow)**
 
-- ![divine-intervention](../assets/images/galatea/divine-intervention.png)
+- ![Galatea track card: Divine Intervention, with photo and liner notes](../assets/images/galatea/divine-intervention.png)
 
-- ![galatea](../assets/images/galatea/galatea.png)
+- ![Galatea track card: Galatea, with photo and liner notes](../assets/images/galatea/galatea.png)
 
-- ![miss-me](../assets/images/galatea/miss-me.png)
+- ![Galatea track card: Miss Me, with photo and liner notes](../assets/images/galatea/miss-me.png)
 
-- ![sculptor](../assets/images/galatea/sculptor.png)
+- ![Galatea track card: Sculptor, with photo and liner notes](../assets/images/galatea/sculptor.png)
 
-- ![tender](../assets/images/galatea/tender.png)
+- ![Galatea track card: Tender, with photo and liner notes](../assets/images/galatea/tender.png)
 
-- ![the-intro-intro](../assets/images/galatea/the-intro-intro.png)
+- ![Galatea track card: The Intro (Intro), with photo and liner notes](../assets/images/galatea/the-intro-intro.png)
 
-- ![when-pygs-fly](../assets/images/galatea/when-pygs-fly.png)
+- ![Galatea track card: When Pygs Fly, with photo and liner notes](../assets/images/galatea/when-pygs-fly.png)
 
-- ![img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93](../assets/images/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93.jpeg)
+- ![Social post: a classical painting with text about the album's themes of idealised love, "Fun fact!! >>"](../assets/images/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93.jpeg)
 
-- ![img-56d4bf5b-a773-4b28-8478-c0a5029f25f3](../assets/images/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3.jpeg)
+- ![TikTok still: a figure facing a stormy sea, captioned "If you're into Percy Jackson"](../assets/images/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3.jpeg)
 
-- ![img-716fbb04-ed1f-41f5-9742-340d0baf85cf](../assets/images/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf.jpeg)
+- ![TikTok still: colourful artwork captioned "OR the Epic Saga... You should check out >>"](../assets/images/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf.jpeg)
 
-- ![img-d4936894-ed51-4318-b712-c89368787b75](../assets/images/galatea/img-d4936894-ed51-4318-b712-c89368787b75.jpeg)
+- ![Social post: a classical painting of Pygmalion and his statue, explaining the myth behind Galatea](../assets/images/galatea/img-d4936894-ed51-4318-b712-c89368787b75.jpeg)
 
-- ![img-e9b61c34-175c-46e0-901d-c32ad23cebda](../assets/images/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda.jpeg)
+- ![Social post: Galatea album tracklist over the cover photo, "You're listening to one of the songs now!"](../assets/images/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda.jpeg)
 
-- ![greek-tragedies](../assets/images/galatea/greek-tragedies.png)
+- ![Galatea track card: Greek Tragedies, with photo and liner notes](../assets/images/galatea/greek-tragedies.png)
 
-- ![pygs-fly-interlude](../assets/images/galatea/pygs-fly-interlude.png)
+- ![Galatea track card: Pygs Fly (Interlude), with photo and liner notes](../assets/images/galatea/pygs-fly-interlude.png)
 
 ### Press Pitching
 
@@ -62,23 +62,23 @@ Pitched directly to blogs and curators, using the Greek mythology concept and a 
 
 **Gallery (strips)**
 
-- ![img-7916](../assets/images/galatea/img-7916.jpg)
+- ![Stereofox article about the song Galatea](../assets/images/galatea/img-7916.jpg)
 
-- ![img-7917](../assets/images/galatea/img-7917.jpg)
+- ![LeftLion interview headline about the album Galatea](../assets/images/galatea/img-7917.jpg)
 
-- ![img-7918](../assets/images/galatea/img-7918.jpg)
+- ![The Herald article: "IkeN's 'Galatea': modern Alt-R&B album depicting pitfalls of unrealistic love"](../assets/images/galatea/img-7918.jpg)
 
-- ![img-7919](../assets/images/galatea/img-7919.jpg)
+- ![Ameyaw Debrah article: "IkeN's 'Galatea': Modern Alt-R&B Album Depicting Pitfalls of Unrealistic Love"](../assets/images/galatea/img-7919.jpg)
 
-- ![img-7920](../assets/images/galatea/img-7920.jpg)
+- ![Album review: 'Galatea' by IkeN](../assets/images/galatea/img-7920.jpg)
 
-- ![img-7921](../assets/images/galatea/img-7921.jpg)
+- ![Glide Magazine: "LISTEN: IkeN Captures Soulful Frank Ocean Styled Melodies On 'Miss Me'"](../assets/images/galatea/img-7921.jpg)
 
-- ![img-7924](../assets/images/galatea/img-7924.jpg)
+- ![Alfitude New Music feature on IkeN](../assets/images/galatea/img-7924.jpg)
 
-- ![img-7922](../assets/images/galatea/img-7922.jpg)
+- ![Channel WAVY review: "IkeN's 'Miss Me' – A Captivating Ode To Love And Loss"](../assets/images/galatea/img-7922.jpg)
 
-- ![img-7923](../assets/images/galatea/img-7923.jpg)
+- ![Aipate article: "IkeN's new song 'Miss Me' readies us for his upcoming album"](../assets/images/galatea/img-7923.jpg)
 
 ### Branded Visual Content
 
@@ -86,13 +86,13 @@ Produced music videos and visualisers with a consistent color palette and visual
 
 **Gallery (slideshow)**
 
-- [![miss-me-vid-cover](../assets/images/galatea/miss-me-vid-cover.png)](https://youtu.be/IhTsx19Xz7g?si=kELCjV_Y0JZPvSu3)
+- [![Miss Me video thumbnail](../assets/images/galatea/miss-me-vid-cover.png)](https://youtu.be/IhTsx19Xz7g?si=kELCjV_Y0JZPvSu3)
 
-- [![galatea-vid-cover](../assets/images/galatea/galatea-vid-cover.png)](https://youtu.be/q6n9-YpYnUI?si=fGVvtN2CgS5DhfJj)
+- [![Galatea video thumbnail](../assets/images/galatea/galatea-vid-cover.png)](https://youtu.be/q6n9-YpYnUI?si=fGVvtN2CgS5DhfJj)
 
-- [![your-turn-vid-cover](../assets/images/galatea/your-turn-vid-cover.png)](https://youtu.be/kGn6ozXIJ9c?si=yTI4r4vjpxVwvXAa)
+- [![Your Turn video thumbnail](../assets/images/galatea/your-turn-vid-cover.png)](https://youtu.be/kGn6ozXIJ9c?si=yTI4r4vjpxVwvXAa)
 
-- [![divint-vid-cover](../assets/images/galatea/divint-vid-cover.png)](https://youtu.be/uUPY8g4r6kw?si=krdsWkQhUFs7UEVd)
+- [![Divine Intervention video thumbnail](../assets/images/galatea/divint-vid-cover.png)](https://youtu.be/uUPY8g4r6kw?si=krdsWkQhUFs7UEVd)
 
 ## Outcomes
 
@@ -114,24 +114,24 @@ Added to Cocoa Butter, Eastern Vibes (cover placement), Up:Date, Sizzlers, NMF K
 
 **Standout Single**
 
-“Tender” emerged as the campaign’s strongest performer, currently at **120K streams**, validating the lore-driven content strategy’s ability to convert narrative engagement into repeat listening..
+“Tender” emerged as the campaign’s strongest performer, currently at **120K streams**, validating the lore-driven content strategy’s ability to convert narrative engagement into repeat listening.
 
 **Gallery (reel)**
 
-- ![img-0363](../assets/images/galatea/img-0363.jpg)
+- ![Spotify playlist cover: Eastern Vibes, featuring the Galatea cover photo](../assets/images/galatea/img-0363.jpg)
 
-- ![img-0365](../assets/images/galatea/img-0365.jpg)
+- ![Spotify playlist cover: Cocoa Butter](../assets/images/galatea/img-0365.jpg)
 
-- ![img-0366](../assets/images/galatea/img-0366.jpg)
+- ![Spotify playlist cover: Sizzlers](../assets/images/galatea/img-0366.jpg)
 
-- ![img-0367](../assets/images/galatea/img-0367.jpg)
+- ![Spotify playlist cover: New Music Friday](../assets/images/galatea/img-0367.jpg)
 
-- ![img-0368](../assets/images/galatea/img-0368.jpg)
+- ![Spotify playlist cover: up:date](../assets/images/galatea/img-0368.jpg)
 
-- ![img-5376](../assets/images/galatea/img-5376.jpg)
+- ![Spotify playlist cover: POLLEN](../assets/images/galatea/img-5376.jpg)
 
-- ![img-0364](../assets/images/galatea/img-0364.jpg)
+- ![Spotify playlist cover: Sound Semester](../assets/images/galatea/img-0364.jpg)
 
-- ![img-7915](../assets/images/galatea/img-7915.jpg)
+- ![Artist graphic: IkeN, Kenya, on a colourful background](../assets/images/galatea/img-7915.jpg)
 
-- ![img-4979-copy](../assets/images/galatea/img-4979-copy.png)
+- ![Amazon Music playlist cover: Breakthrough R&B](../assets/images/galatea/img-4979-copy.png)

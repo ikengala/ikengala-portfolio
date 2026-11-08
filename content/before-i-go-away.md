@@ -2,7 +2,7 @@
 
 _Original URL: https://ikengala.squarespace.com/home/beforeigoaway_
 
-[![hero-cutout](../assets/images/before-i-go-away/hero-cutout.png)](https://youtu.be/2_dct1jkoIw?si=Oq4PZ6AVF3oIRgYl)
+[![Before I Go Away, handwritten title (links to the YouTube video)](../assets/images/before-i-go-away/hero-cutout.png)](https://youtu.be/2_dct1jkoIw?si=Oq4PZ6AVF3oIRgYl)
 
 *Before I Go Away* (released March 2025) is the clearest proof-of-concept in the IkeN catalog, not because it was the most meticulously planned campaign, but rather because it wasn’t. The track generated organic TikTok virality a month after release, then did so again roughly a year later, with each moment requiring a different analysis of what was happening in real time. 
 
@@ -22,25 +22,25 @@ Furthermore, I created content centered around existing trends and pop media in 
 
 **Gallery (strips)**
 
-- ![img-590de304-a452-4620-8165-9ba463829827](../assets/images/before-i-go-away/img-590de304-a452-4620-8165-9ba463829827.jpeg)
+- ![TikTok still: a man standing on harbour rocks, captioned "Day 49 of posting my music until it reaches my target audience"](../assets/images/before-i-go-away/img-590de304-a452-4620-8165-9ba463829827.jpeg)
 
-- ![img-28632368-8e53-4136-b46e-a1dbc3d2667d](../assets/images/before-i-go-away/img-28632368-8e53-4136-b46e-a1dbc3d2667d.jpeg)
+- ![TikTok still: a grassy field at dusk, overlaid with Before I Go Away lyrics](../assets/images/before-i-go-away/img-28632368-8e53-4136-b46e-a1dbc3d2667d.jpeg)
 
-- ![img-b4dcdb6d-0630-49e2-ba2d-dfbb04ac6ad2](../assets/images/before-i-go-away/img-b4dcdb6d-0630-49e2-ba2d-dfbb04ac6ad2.jpeg)
+- ![TikTok still: two silhouettes about to kiss in blue light, captioned "enjoy some music as you wait."](../assets/images/before-i-go-away/img-b4dcdb6d-0630-49e2-ba2d-dfbb04ac6ad2.jpeg)
 
-- ![img-bbf72021-2391-469b-a72e-59cd2bfc250a](../assets/images/before-i-go-away/img-bbf72021-2391-469b-a72e-59cd2bfc250a.jpeg)
+- ![TikTok still: a hand raised in blue light, captioned "stop scrolling."](../assets/images/before-i-go-away/img-bbf72021-2391-469b-a72e-59cd2bfc250a.jpeg)
 
-- ![img-91f0a086-df7b-4ed4-9467-454f86199ea6](../assets/images/before-i-go-away/img-91f0a086-df7b-4ed4-9467-454f86199ea6.jpeg)
+- ![TikTok still from a TV series scene, captioned "If you liked this series>>"](../assets/images/before-i-go-away/img-91f0a086-df7b-4ed4-9467-454f86199ea6.jpeg)
 
-- ![img-76b39af7-6a29-43b7-8ead-67d976f6144f](../assets/images/before-i-go-away/img-76b39af7-6a29-43b7-8ead-67d976f6144f.jpeg)
+- ![TikTok still: a young man listening to earphones on a train, captioned "Then you'll love this song..."](../assets/images/before-i-go-away/img-76b39af7-6a29-43b7-8ead-67d976f6144f.jpeg)
 
-- ![img-117029d1-8e75-41fd-802e-625454e92c44](../assets/images/before-i-go-away/img-117029d1-8e75-41fd-802e-625454e92c44.jpeg)
+- ![TikTok still: a couple facing each other under neon lights, overlaid with Before I Go Away lyrics](../assets/images/before-i-go-away/img-117029d1-8e75-41fd-802e-625454e92c44.jpeg)
 
-- ![img-321e5779-0068-48a7-bb13-f53741f7b7fa](../assets/images/before-i-go-away/img-321e5779-0068-48a7-bb13-f53741f7b7fa.jpeg)
+- ![TikTok still from a film scene, captioned "If you loved this movie..."](../assets/images/before-i-go-away/img-321e5779-0068-48a7-bb13-f53741f7b7fa.jpeg)
 
-- ![img-f2b79708-1817-4497-9cc3-d67365bff7b7](../assets/images/before-i-go-away/img-f2b79708-1817-4497-9cc3-d67365bff7b7.jpeg)
+- ![TikTok still: two people browsing records in a shop, captioned "Then you'll love this song..."](../assets/images/before-i-go-away/img-f2b79708-1817-4497-9cc3-d67365bff7b7.jpeg)
 
-- ![img-5b70acc5-3b62-40d8-a283-e4ec46525dc9](../assets/images/before-i-go-away/img-5b70acc5-3b62-40d8-a283-e4ec46525dc9.jpeg)
+- ![TikTok still: a couple walking hand in hand down a cobbled street, overlaid with Before I Go Away lyrics](../assets/images/before-i-go-away/img-5b70acc5-3b62-40d8-a283-e4ec46525dc9.jpeg)
 
 ### Data-Driven Geographic Targeting
 
@@ -52,13 +52,13 @@ Treated *Before I Go Away* as an entry point rather than simply as an endpoint, 
 
 **Gallery (strips)**
 
-- ![img-7950](../assets/images/before-i-go-away/img-7950.jpg)
+- ![Streaming stats chart for Before I Go Away: 77,087 streams, up 705%, peaking at 5,350 on 28 February 2026](../assets/images/before-i-go-away/img-7950.jpg)
 
-- ![img-7947](../assets/images/before-i-go-away/img-7947.jpg)
+- ![Streaming stats chart for Delusional, peaking on 28 February 2026](../assets/images/before-i-go-away/img-7947.jpg)
 
-- ![img-7948](../assets/images/before-i-go-away/img-7948.jpg)
+- ![Streaming stats chart for Realign, peaking on 28 February 2026](../assets/images/before-i-go-away/img-7948.jpg)
 
-- ![img-7949](../assets/images/before-i-go-away/img-7949.jpg)
+- ![Streaming stats chart for Brown Skin Girl, peaking on 28 February 2026](../assets/images/before-i-go-away/img-7949.jpg)
 
 ## Outcomes
 
