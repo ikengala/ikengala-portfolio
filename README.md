@@ -16,8 +16,11 @@ projects/
   galatea.html                 Case study 2: press
   favorite.html                Case study 3: long-form brand building
 assets/
-  css/style.css                All styling (colours and fonts at the top)
-  js/main.js                   Home page "cover follows the cursor" effect
+  css/style.css                Shared styling (colours and fonts at the top)
+  css/layout/<page>.css        Exact block positions copied from the original
+                               Squarespace grid (24 columns; 8 on phones)
+  js/main.js                   Curved/wavy section dividers, slideshows, reel
+                               arrows, and the home page hover-cover effect
   images/<page>/               Every image at original resolution
   images/covers/               The three project cover artworks
   videos/<page>/               Every video, converted to MP4
@@ -65,12 +68,14 @@ Before I Go Away and Favorite, a 15px blur on the Galatea outcomes section.
 
 ## Differences from the Squarespace version
 
-- **Accordions** ("Trend-Responsive Content Creation" and the others) use the browser's
-  built-in `<details>` element. They open and close the same way.
-- **Galleries** are simple rows and horizontal scrollers instead of Squarespace's
-  slideshow and lightbox widgets.
-- **Layout** reproduces the original 12-column grid closely, but not pixel for pixel.
-  On phones every block stacks in reading order.
+- **Layout** uses the original's exact grid positions, block offsets, section heights
+  and divider shapes, including its separate phone layout.
+- **Dropdowns** ("Trend-Responsive Content Creation" and the others) use the browser's
+  built-in `<details>` element, with the original alignment and +/– or chevron icons.
+- **Galleries** (photo rows, the Galatea slideshows and the playlist reels) are rebuilt
+  with plain HTML and a few lines of JavaScript, and look the same. The press-photo
+  lightbox (tap to enlarge) and the 3° tilt-on-scroll animation on some images weren't
+  carried over.
 - **Videos** are MP4 files in the repo rather than Squarespace's streaming player. They
   are compressed (max 1280px, background videos without sound) so the whole site
   deploys and loads quickly; the largest is about 10 MB. The higher-quality copies
