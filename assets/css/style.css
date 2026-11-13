@@ -264,7 +264,7 @@ main > .section.after-divider:first-child { margin-top: 0; }
   .slides { height: 55vw; }
   .slideshow-wide .slides { height: 55vw; }
   .slide-btn { flex-basis: 28px; }
-  .projects-list .section-inner { min-height: 70vh; }
+  .projects-list .section-inner { min-height: 70vh; padding: 20vw 0 22vw; }
   .project-links { flex-direction: column; gap: .5rem; }
   .project-links li + li::before { content: none; }
   .hover-cover { display: none; }
