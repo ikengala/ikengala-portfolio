@@ -71,8 +71,10 @@ Before I Go Away and Favorite, a 15px blur on the Galatea outcomes section.
   slideshow and lightbox widgets.
 - **Layout** reproduces the original 12-column grid closely, but not pixel for pixel.
   On phones every block stacks in reading order.
-- **Videos** are MP4 files in the repo rather than Squarespace's streaming player. The
-  biggest is about 27 MB.
+- **Videos** are MP4 files in the repo rather than Squarespace's streaming player. They
+  are compressed (max 1280px, background videos without sound) so the whole site
+  deploys and loads quickly; the largest is about 10 MB. The higher-quality copies
+  pulled from Squarespace are in the first commit's history if you ever need them.
 - The contact section that sat at the bottom of every page is now a single shared footer.
 
 ## Image filenames
