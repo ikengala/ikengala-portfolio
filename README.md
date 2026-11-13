@@ -19,8 +19,13 @@ assets/
   css/style.css                Shared styling (colours and fonts at the top)
   css/layout/<page>.css        Exact block positions copied from the original
                                Squarespace grid (24 columns; 8 on phones)
-  js/main.js                   Curved/wavy section dividers, slideshows, reel
-                               arrows, and the home page hover-cover effect
+  js/main.js                   Section dividers, slideshows, reels, sliding dropdowns,
+                               scroll fade-ins, counters, clip sound buttons,
+                               off-screen video pausing, home hover-cover effect
+  images/posters/              Preview frames shown while each video loads
+  images/favicon.svg           Browser tab icon
+404.html                       "Page not found" page
+CNAME                          Tells GitHub Pages the site lives at ikengala.com
   images/<page>/               Every image at original resolution
   images/covers/               The three project cover artworks
   videos/<page>/               Every video, converted to MP4
@@ -65,6 +70,17 @@ with no build command.
 
 Background videos are dimmed or blurred the way Squarespace did it: 70% opacity on
 Before I Go Away and Favorite, a 15px blur on the Galatea outcomes section.
+
+## Added on top of the Squarespace version
+
+- Header links to each case study and to Contact ("Work · Contact" on phones).
+- Home: focus labels under each project (cover art shown on touch screens), a
+  "Results in numbers" strip, and a breathing animation on the BCZIKN logo.
+- Case studies: an "At a glance" strip (release date, focus, role, three headline results).
+  The figures all come from the case-study text; edit them in each page's HTML.
+- Dropdowns slide open, content fades in as you scroll (off for people who prefer reduced
+  motion), Before I Go Away clips have sound buttons, the Galatea slideshows can be swiped.
+- Social preview card (title, description, image) for links shared on LinkedIn, Slack etc.
 
 ## Differences from the Squarespace version
 

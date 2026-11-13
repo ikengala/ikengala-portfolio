@@ -1,5 +1,7 @@
 // Small enhancements that recreate the original Squarespace behaviour.
 // The site still reads fine with JavaScript off.
+document.documentElement.classList.add('js');
+var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // ---------- Curved / wavy section dividers ----------
 // Same shapes Squarespace used: a clip path on the bottom edge of the section,
@@ -114,4 +116,123 @@
     link.addEventListener('mouseleave', function () { cover.classList.remove('is-visible'); running = false; });
   });
   document.addEventListener('mousemove', function (e) { x = e.clientX; y = e.clientY; });
+})();
+
+// ---------- Dropdowns slide open and closed instead of snapping ----------
+(function () {
+  document.querySelectorAll('.accordion details').forEach(function (d) {
+    var summary = d.querySelector('summary'), body = d.querySelector('.details-body'), anim = null;
+    summary.addEventListener('click', function (e) {
+      if (REDUCED || !body.animate) return;          // fall back to the native toggle
+      e.preventDefault();
+      if (anim) anim.cancel();
+      if (!d.open) {
+        d.open = true;
+        var h = body.scrollHeight;
+        anim = body.animate(
+          [{ height: '0px', opacity: 0, transform: 'translateY(-12px)' },
+           { height: h + 'px', opacity: 1, transform: 'translateY(0)' }],
+          { duration: 450, easing: 'cubic-bezier(.2,.7,.2,1)' });
+      } else {
+        anim = body.animate(
+          [{ height: body.offsetHeight + 'px', opacity: 1, transform: 'translateY(0)' },
+           { height: '0px', opacity: 0, transform: 'translateY(-12px)' }],
+          { duration: 350, easing: 'cubic-bezier(.4,0,.2,1)' });
+        anim.onfinish = function () { d.open = false; };
+      }
+      anim.addEventListener('finish', function () { anim = null; });
+    });
+  });
+})();
+
+// ---------- Content fades up as it scrolls into view ----------
+(function () {
+  if (REDUCED || !('IntersectionObserver' in window)) return;
+  var targets = document.querySelectorAll(
+    '.fe-block, .strip-row, .gallery-slideshow, .gallery-reel, .glance-facts, .glance-stats li, .results-list li, .results h2, .project-links li');
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
+    });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  targets.forEach(function (el, i) {
+    if (el.getBoundingClientRect().top < window.innerHeight) return;  // already on screen: leave it alone
+    el.classList.add('reveal');
+    // small stagger for items in a row
+    var sib = el.parentElement ? Array.prototype.indexOf.call(el.parentElement.children, el) : 0;
+    if (el.matches('li')) el.style.transitionDelay = Math.min(sib, 5) * 90 + 'ms';
+    io.observe(el);
+  });
+})();
+
+// ---------- Home page: numbers count up when they appear ----------
+(function () {
+  var counts = document.querySelectorAll('.count[data-to]');
+  if (!counts.length || REDUCED || !('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      io.unobserve(en.target);
+      var el = en.target, to = +el.dataset.to, t0 = null;
+      function frame(t) {
+        if (!t0) t0 = t;
+        var p = Math.min((t - t0) / 1400, 1);
+        el.textContent = Math.round(to * (1 - Math.pow(1 - p, 3)));
+        if (p < 1) requestAnimationFrame(frame);
+      }
+      el.textContent = '0';
+      requestAnimationFrame(frame);
+    });
+  }, { threshold: 0.6 });
+  counts.forEach(function (c) { io.observe(c); });
+})();
+
+// ---------- Sound buttons on the autoplaying clips (one clip plays sound at a time) ----------
+(function () {
+  var buttons = document.querySelectorAll('.sound-toggle');
+  function set(btn, on) {
+    var v = btn.parentNode.querySelector('video');
+    v.muted = !on;
+    if (on) v.play();
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    btn.setAttribute('aria-label', on ? 'Turn sound off' : 'Turn sound on');
+    btn.querySelector('.sound-label').textContent = on ? 'Sound off' : 'Sound on';
+  }
+  function toggle(btn) {
+    var turnOn = btn.getAttribute('aria-pressed') !== 'true';
+    buttons.forEach(function (b) { if (b !== btn) set(b, false); });
+    set(btn, turnOn);
+  }
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () { toggle(btn); });
+    // tapping the clip itself toggles sound too
+    btn.parentNode.querySelector('video').addEventListener('click', function () { toggle(btn); });
+  });
+})();
+
+// ---------- Pause videos while they're off screen (saves battery and data) ----------
+(function () {
+  if (!('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      var v = en.target;
+      if (en.isIntersecting) { if (!(REDUCED && v.classList.contains('bg-video'))) { var p = v.play(); if (p && p.catch) p.catch(function () {}); } }
+      else v.pause();
+    });
+  }, { rootMargin: '200px 0px' });
+  document.querySelectorAll('video[autoplay]').forEach(function (v) { io.observe(v); });
+})();
+
+// ---------- Swipe through the Galatea slideshows on touch screens ----------
+(function () {
+  document.querySelectorAll('.gallery-slideshow .slides').forEach(function (stage) {
+    var show = stage.closest('.gallery-slideshow'), x0 = null;
+    stage.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+    stage.addEventListener('touchend', function (e) {
+      if (x0 === null) return;
+      var dx = e.changedTouches[0].clientX - x0; x0 = null;
+      if (Math.abs(dx) < 40) return;
+      show.querySelector(dx < 0 ? '.slide-btn.next' : '.slide-btn.prev').click();
+    });
+  });
 })();

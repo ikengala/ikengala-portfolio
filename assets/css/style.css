@@ -70,7 +70,7 @@ p + p, h1 + p, h2 + p, h3 + p, h4 + p, p + h1, p + h2, p + h3, p + h4, h4 + h4 {
 .theme-red      { --bg: var(--red);   --fg: var(--yellow); --accent: var(--yellow); }
 .theme-red-dark { --bg: var(--red-dark); --fg: var(--yellow); --accent: var(--yellow); }
 
-.section, .site-footer, .pager { background: var(--bg); color: var(--fg); }
+.section, .site-footer, .pager, .glance, .results { background: var(--bg); color: var(--fg); }
 .accent { color: var(--accent); }
 .on-dark { color: var(--white); }
 .theme-galatea h2, .theme-galatea h3 { color: var(--accent); }
@@ -122,7 +122,13 @@ main > .section.after-divider:first-child { margin-top: 0; }
 .blk.image img, .blk.video video { position: absolute; inset: 0; width: 100%; height: 100%; }
 .blk.image.fit-cover img { object-fit: cover; }
 .blk.image.fit-contain img { object-fit: contain; }
-.blk.video video { object-fit: contain; }
+.blk.video { container-type: size; pointer-events: none; }
+.vframe {
+  position: absolute; left: 50%; top: 50%; translate: -50% -50%; pointer-events: auto;
+  width: min(100cqw, calc(100cqh * var(--ar))); aspect-ratio: var(--ar);
+}
+.blk.video .vframe video { object-fit: cover; }
+.blk.video video[autoplay] { cursor: pointer; }
 
 .align-right { text-align: right; }
 
@@ -254,7 +260,7 @@ main > .section.after-divider:first-child { margin-top: 0; }
   .align-right, .acc-title-right .acc-title, .acc-desc-right .details-body { text-align: left; }
   .details-body { width: 100%; }
   .strip-row { flex-wrap: wrap; }
-  .strip-row figure { flex: var(--ratio) 1 calc(var(--ratio) * 140px); }
+  .strip-row figure { flex: var(--ratio) 1 calc(var(--ratio) * 95px); }
   .slides { height: 55vw; }
   .slideshow-wide .slides { height: 55vw; }
   .slide-btn { flex-basis: 28px; }
@@ -269,4 +275,119 @@ main > .section.after-divider:first-child { margin-top: 0; }
 @media (prefers-reduced-motion: reduce) {
   .bg-video { display: none; }
   .slide { transition: none; }
+}
+
+/* =========================================================
+   Portfolio enhancements (added after the Squarespace rebuild)
+   ========================================================= */
+
+/* ---------- header navigation ---------- */
+.site-header nav { display: flex; align-items: center; gap: clamp(1rem, 2.2vw, 2.25rem); }
+.nav-work { display: none; }
+@media (max-width: 767px) {
+  .nav-case { display: none; }
+  .nav-work { display: inline; }
+}
+
+/* ---------- BCZIKN logo: slow breathing ---------- */
+.breathe img { animation: breathe 5.5s ease-in-out infinite; transform-origin: center; }
+@keyframes breathe {
+  0%, 100% { transform: scale(1);     filter: brightness(.82); }
+  50%      { transform: scale(1.045); filter: brightness(1.12); }
+}
+
+/* ---------- dropdowns slide open (height animated in main.js) ---------- */
+.details-body { overflow: hidden; }
+.accordion summary { transition: opacity .2s ease; }
+.accordion summary:hover { opacity: .8; }
+
+/* ---------- content fades up as it scrolls into view ---------- */
+.js .reveal { opacity: 0; translate: 0 28px; transition: opacity .9s ease, translate .9s cubic-bezier(.2, .7, .2, 1); }
+.js .reveal.is-in { opacity: 1; translate: 0 0; }
+
+/* ---------- sound button on autoplaying clips ---------- */
+.sound-toggle {
+  position: absolute; left: 12px; top: 12px; z-index: 3;
+  display: inline-flex; align-items: center; gap: .45em;
+  padding: .45em .95em .45em .8em; border: 0; border-radius: 999px; cursor: pointer;
+  background: rgba(0, 0, 0, .6); color: var(--white);
+  font: 700 .8rem/1 var(--font-body); letter-spacing: .02em;
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  transition: background .2s ease;
+}
+.sound-toggle:hover { background: rgba(0, 0, 0, .8); }
+.sound-toggle::before {               /* speaker icon */
+  content: ""; width: 14px; height: 14px; background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z'/%3E%3C/svg%3E") center / contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* ---------- home: project list labels + covers on touch screens ---------- */
+.project-links li { display: flex; align-items: flex-start; line-height: 1.15; }
+.project-links li + li::before { line-height: 1.15; }
+.project-links a { display: inline-flex; flex-direction: column; align-items: center; }
+.project-name { line-height: 1.15; }
+.project-focus {
+  font-family: var(--font-body); font-size: .85rem; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; opacity: .75; margin-top: .35rem;
+}
+.touch-cover { display: none; }
+@media (hover: none) {
+  .project-links { gap: clamp(1.5rem, 4vw, 3rem); align-items: flex-start; }
+  .project-links li + li::before { content: none; }
+  .touch-cover {
+    display: block; width: clamp(150px, 24vw, 260px); height: auto; aspect-ratio: 1; object-fit: cover;
+    margin-bottom: 1rem; box-shadow: 0 18px 40px rgba(0, 0, 0, .35);
+  }
+  .project-links a { color: var(--white); text-align: center; }
+  .project-links li { flex: 1 1 0; min-width: 0; justify-content: center; max-width: 320px; }
+}
+
+/* ---------- home: results in numbers ---------- */
+.results-inner { padding: clamp(56px, 7vw, 110px) var(--sqs-site-gutter); }
+.results h2 { margin-bottom: clamp(1.5rem, 3vw, 2.75rem); }
+.results-list {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2rem;
+}
+.results-list li, .glance-stats li { display: flex; flex-direction: column; gap: .35rem; padding-top: 1.1rem; border-top: 1px solid currentColor; }
+.results-list strong, .glance-stats strong {
+  font-family: var(--font-heading); font-weight: 500; letter-spacing: -0.03em; line-height: 1;
+  font-size: clamp(2.6rem, 2rem + 2.6vw, 4.6rem); font-variant-numeric: tabular-nums;
+}
+.results-list span:not(.count), .glance-stats span { font-size: clamp(.95rem, .85rem + .3vw, 1.1rem); opacity: .8; }
+
+/* ---------- case studies: at a glance ---------- */
+.glance-inner { padding: clamp(40px, 5vw, 80px) var(--sqs-site-gutter); display: grid; gap: clamp(1.75rem, 3vw, 2.75rem); }
+.glance-facts { margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.glance-facts dt {
+  font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; opacity: .7; margin-bottom: .3rem;
+}
+.glance-facts dd { margin: 0; font-family: var(--font-heading); font-size: clamp(1.1rem, 1rem + .5vw, 1.45rem); }
+.glance-stats { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+.theme-galatea.glance { border-top: 1px solid rgba(255, 209, 92, .35); }
+.glance-stats li { border-top-color: color-mix(in srgb, currentColor 45%, transparent); }
+
+/* ---------- footer call to action ---------- */
+.footer-cta { display: flex; align-items: center; gap: 1.25rem 1.5rem; flex-wrap: wrap; }
+.button {
+  display: inline-block; padding: .75em 1.5em; border-radius: 999px;
+  background: var(--white); color: var(--black);
+  font-family: var(--font-heading); font-weight: 700; font-size: 1rem; text-decoration: none;
+  transition: background .2s ease, transform .2s ease;
+}
+.site-footer a.button:hover { background: var(--yellow); text-decoration: none; transform: translateY(-2px); }
+
+/* ---------- 404 page ---------- */
+.notfound { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem; padding: 120px var(--sqs-site-gutter) 80px; }
+.notfound p { font-size: 1.2rem; max-width: 36rem; }
+
+@media (max-width: 767px) {
+  .results-list, .glance-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 1rem; }
+  .glance-facts { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .breathe img { animation: none; }
+  .js .reveal { opacity: 1; translate: none; transition: none; }
 }
