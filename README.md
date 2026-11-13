@@ -22,6 +22,7 @@ assets/
   js/main.js                   Section dividers, slideshows, reels, sliding dropdowns,
                                scroll fade-ins, counters, clip sound buttons,
                                off-screen video pausing, home hover-cover effect
+  files/Ike-Ngala-CV.pdf       CV linked from the header and footer (swap the file to update it)
   images/posters/              Preview frames shown while each video loads
   images/favicon.svg           Browser tab icon
 404.html                       "Page not found" page
@@ -87,7 +88,9 @@ Before I Go Away and Favorite, a 15px blur on the Galatea outcomes section.
 
 - Header links to each case study and to Contact ("Work · Contact" on phones).
 - Home: focus labels under each project (cover art shown on touch screens), a
-  "Results in numbers" strip, and a breathing animation on the BCZIKN logo.
+  "Results in numbers" strip with career-wide figures (from the CV and case studies),
+  and a breathing animation on the BCZIKN logo.
+- CV link in the header and a Download CV button in the footer.
 - Case studies: an "At a glance" strip (release date, focus, role, three headline results).
   The figures all come from the case-study text; edit them in each page's HTML.
 - Dropdowns slide open, content fades in as you scroll (off for people who prefer reduced

@@ -174,13 +174,14 @@ var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (!en.isIntersecting) return;
       io.unobserve(en.target);
       var el = en.target, to = +el.dataset.to, t0 = null;
+      var dp = (el.dataset.to.split('.')[1] || '').length;   // keep decimals, e.g. 1.8
       function frame(t) {
         if (!t0) t0 = t;
         var p = Math.min((t - t0) / 1400, 1);
-        el.textContent = Math.round(to * (1 - Math.pow(1 - p, 3)));
+        el.textContent = (to * (1 - Math.pow(1 - p, 3))).toFixed(dp);
         if (p < 1) requestAnimationFrame(frame);
       }
-      el.textContent = '0';
+      el.textContent = (0).toFixed(dp);
       requestAnimationFrame(frame);
     });
   }, { threshold: 0.6 });
