@@ -1,0 +1,5 @@
+# This portfolio is shared by link only and is not meant to appear in search results.
+# Pages carry a "noindex" tag, so they must stay crawlable for search engines to see it.
+# Images and videos can't carry that tag, so crawlers are kept out of the assets folder.
+User-agent: *
+Disallow: /assets/

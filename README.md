@@ -26,6 +26,7 @@ assets/
   images/favicon.svg           Browser tab icon
 404.html                       "Page not found" page
 CNAME                          Tells GitHub Pages the site lives at ikengala.com
+robots.txt                     Keeps search engines out of the images/videos folder
   images/<page>/               Every image at original resolution
   images/covers/               The three project cover artworks
   videos/<page>/               Every video, converted to MP4
@@ -56,6 +57,17 @@ works straight from your computer.
 
 Netlify, Cloudflare Pages and Vercel also work: drag the folder in or connect the repo,
 with no build command.
+
+## Kept out of search results
+
+The site is meant to be shared by link, not found by searching your name:
+
+- Every page has `<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">`.
+- `robots.txt` blocks crawlers from `/assets/` so images and videos don't show up in image search.
+  Pages are deliberately *not* blocked there: a crawler has to read a page to see its noindex tag.
+- Link previews on LinkedIn, Slack, iMessage etc. still work.
+
+To make the site searchable later, delete that meta tag from each page and the `Disallow` line from `robots.txt`.
 
 ## Design reference (from the original site)
 

@@ -391,3 +391,6 @@ main > .section.after-divider:first-child { margin-top: 0; }
   .breathe img { animation: none; }
   .js .reveal { opacity: 1; translate: none; transition: none; }
 }
+
+/* footer: one-line note on what Ike is looking for */
+.footer-note { margin-top: .5rem; font-size: clamp(.95rem, .85rem + .3vw, 1.1rem); opacity: .8; max-width: 30rem; }
