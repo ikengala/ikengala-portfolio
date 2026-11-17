@@ -1,0 +1,4 @@
+# Read by Cloudflare Pages (ignored by GitHub Pages).
+# Tells search engines not to index ANY file on the site, including the PDFs, images and videos.
+/*
+  X-Robots-Tag: noindex, nofollow, noarchive, nosnippet, noimageindex
