@@ -23,6 +23,14 @@
   --header-h: 87px;
 }
 
+/* Fonts are self-hosted (assets/fonts, SIL Open Font License) */
+@font-face { font-family: "Manrope"; font-weight: 500; font-display: swap; src: url("../fonts/manrope-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Manrope"; font-weight: 700; font-display: swap; src: url("../fonts/manrope-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Nunito Sans"; font-weight: 400; font-display: swap; src: url("../fonts/nunito-sans-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Nunito Sans"; font-weight: 400; font-style: italic; font-display: swap; src: url("../fonts/nunito-sans-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Nunito Sans"; font-weight: 700; font-display: swap; src: url("../fonts/nunito-sans-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Nunito Sans"; font-weight: 700; font-style: italic; font-display: swap; src: url("../fonts/nunito-sans-latin-700-italic.woff2") format("woff2"); }
+
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
@@ -70,7 +78,7 @@ p + p, h1 + p, h2 + p, h3 + p, h4 + p, p + h1, p + h2, p + h3, p + h4, h4 + h4 {
 .theme-red      { --bg: var(--red);   --fg: var(--yellow); --accent: var(--yellow); }
 .theme-red-dark { --bg: var(--red-dark); --fg: var(--yellow); --accent: var(--yellow); }
 
-.section, .site-footer, .pager, .glance, .results { background: var(--bg); color: var(--fg); }
+.section, .site-footer, .pager, .glance, .results, .skills, .takeaway, .next-case { background: var(--bg); color: var(--fg); }
 .accent { color: var(--accent); }
 .on-dark { color: var(--white); }
 .theme-galatea h2, .theme-galatea h3 { color: var(--accent); }
@@ -281,13 +289,6 @@ main > .section.after-divider:first-child { margin-top: 0; }
    Portfolio enhancements (added after the Squarespace rebuild)
    ========================================================= */
 
-/* ---------- header navigation ---------- */
-.site-header nav { display: flex; align-items: center; gap: clamp(1rem, 2.2vw, 2.25rem); }
-.nav-work { display: none; }
-@media (max-width: 767px) {
-  .nav-case { display: none; }
-  .nav-work { display: inline; }
-}
 
 /* ---------- BCZIKN logo: slow breathing ---------- */
 .breathe img { animation: breathe 5.5s ease-in-out infinite; transform-origin: center; }
@@ -404,3 +405,152 @@ main > .section.after-divider:first-child { margin-top: 0; }
 .footer-cta { flex: 0 1 34rem; gap: 1rem; }
 .footer-cta > div { flex-basis: 100%; }
 .site-footer dl { flex: 0 1 auto; column-gap: clamp(1.5rem, 5vw, 6rem); }
+
+
+/* =========================================================
+   Round 3: sticky header, hero actions, skills, takeaways,
+   next-case card, legibility and contrast
+   ========================================================= */
+
+/* ---------- header: fixed, hides on scroll down, returns on scroll up ---------- */
+.page-home { --hdr-bg: var(--white); --hdr-fg: var(--black); }
+.page-before-i-go-away { --hdr-bg: var(--blue); --hdr-fg: var(--white); }
+.page-galatea { --hdr-bg: var(--black); --hdr-fg: var(--white); }
+.page-favorite { --hdr-bg: var(--red); --hdr-fg: var(--yellow); }
+.site-header {
+  position: fixed; color: var(--hdr-fg);
+  transition: transform .35s ease, background-color .3s ease, box-shadow .3s ease, height .3s ease;
+}
+.site-header.is-solid { background: var(--hdr-bg); box-shadow: 0 1px 0 rgba(0, 0, 0, .08), 0 8px 24px rgba(0, 0, 0, .08); height: 64px; }
+.site-header.is-hidden { transform: translateY(-100%); }
+.site-header nav { display: flex; align-items: center; gap: clamp(1rem, 2.2vw, 2.25rem); }
+.site-header nav > a, .nav-menu-btn { text-decoration: none; text-underline-offset: 5px; }
+.site-header nav > a:hover, .nav-menu-btn:hover { text-decoration: underline; }
+
+/* "Case studies" menu */
+.nav-menu { position: relative; }
+.nav-menu-btn {
+  background: none; border: 0; padding: 0; cursor: pointer; font: inherit; color: inherit;
+  display: inline-flex; align-items: center; gap: .4em;
+}
+.nav-menu-btn[data-current] { text-decoration: underline; }
+.nav-menu-btn::after {
+  content: ""; width: .45em; height: .45em; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: translateY(-25%) rotate(45deg); transition: transform .25s ease;
+}
+.nav-menu.is-open .nav-menu-btn::after { transform: translateY(15%) rotate(-135deg); }
+.nav-menu-list {
+  list-style: none; margin: 0; padding: .5rem; position: absolute; right: -.5rem; top: calc(100% + .9rem);
+  min-width: 290px; background: var(--white); color: var(--black); border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .22);
+  opacity: 0; visibility: hidden; transform: translateY(-8px); transition: opacity .2s ease, transform .25s ease, visibility .25s;
+}
+.nav-menu.is-open .nav-menu-list { opacity: 1; visibility: visible; transform: translateY(0); }
+@media (hover: hover) {
+  .nav-menu:hover .nav-menu-list { opacity: 1; visibility: visible; transform: translateY(0); }
+  .nav-menu:hover .nav-menu-btn::after { transform: translateY(15%) rotate(-135deg); }
+  .nav-menu::after { content: ""; position: absolute; left: -1rem; right: -1rem; top: 100%; height: 1rem; }  /* hover bridge */
+}
+.nav-menu-list a {
+  display: flex; align-items: center; gap: .85rem; padding: .55rem; border-radius: 10px; text-decoration: none;
+  transition: background .2s ease;
+}
+.nav-menu-list a:hover, .nav-menu-list a[aria-current] { background: #f1f1ef; }
+.nav-menu-list img { width: 48px; height: 48px; object-fit: cover; border-radius: 6px; flex: none; }
+.menu-title { display: block; font-family: var(--font-heading); font-size: 1.05rem; }
+.menu-focus { display: block; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; opacity: .6; }
+@media (max-width: 767px) {
+  .site-header nav { gap: 1.1rem; font-size: .95rem; }
+  .nav-menu-list { position: fixed; left: 12px; right: 12px; top: calc(var(--header-h) - 8px); min-width: 0; }
+  .site-header.is-solid { height: 58px; }
+  .site-header.is-solid .nav-menu-list { top: 58px; }
+}
+
+/* ---------- home hero buttons ---------- */
+.hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.6em; }
+.button-solid { background: var(--black); color: var(--white); }
+.button-solid:hover { background: #333; }
+.button-ghost { background: transparent; color: var(--black); box-shadow: inset 0 0 0 1.5px currentColor; }
+.button-ghost:hover { background: var(--black); color: var(--white); }
+.button { transition: background .2s ease, color .2s ease, transform .2s ease; }
+.button:hover { transform: translateY(-2px); }
+
+/* ---------- home: result line under each project ---------- */
+.project-result { font-family: var(--font-body); font-size: clamp(.95rem, .85rem + .35vw, 1.15rem); margin-top: .35rem; opacity: .9; letter-spacing: 0; }
+
+/* ---------- home: skills ---------- */
+.skills-inner { padding: clamp(56px, 7vw, 110px) var(--sqs-site-gutter); }
+.skills h2 { margin-bottom: clamp(1.5rem, 3vw, 2.5rem); }
+.skills-grid { display: grid; grid-template-columns: 1.15fr 1.4fr .8fr; gap: clamp(1.5rem, 3.5vw, 3.5rem); }
+.skills-group h3 {
+  font-family: var(--font-body); font-weight: 700; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase;
+  opacity: .65; margin-bottom: 1rem; padding-bottom: .9rem; border-bottom: 1px solid currentColor;
+}
+.chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.chips li {
+  padding: .45em .95em; border-radius: 999px; background: #f1f1ef; font-size: .95rem;
+  transition: background .2s ease, transform .2s ease;
+}
+.chips li:hover { background: var(--yellow); transform: translateY(-2px); }
+.skills-note { margin-top: clamp(1.5rem, 3vw, 2.25rem); opacity: .75; }
+
+/* ---------- case studies: key takeaway ---------- */
+.takeaway-inner { padding: clamp(56px, 7vw, 110px) var(--sqs-site-gutter); max-width: 1100px; }
+.eyebrow { display: block; font-family: var(--font-body); font-weight: 700; font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; opacity: .75; margin-bottom: 1rem; }
+.takeaway p { font-family: var(--font-heading); font-size: clamp(1.4rem, 1.05rem + 1.4vw, 2.4rem); line-height: 1.3; letter-spacing: -0.015em; }
+
+/* ---------- next case study card ---------- */
+.next-case { padding: clamp(40px, 5vw, 72px) var(--sqs-site-gutter); }
+.next-card {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); align-items: center; gap: clamp(1.5rem, 4vw, 4rem);
+  text-decoration: none; color: inherit;
+}
+.next-media { display: block; overflow: hidden; border-radius: 10px; aspect-ratio: 1; }
+.next-media img {
+  width: 100%; height: 100%; object-fit: cover; transform: scale(1.04);
+  transition: transform 1.1s cubic-bezier(.2, .7, .2, 1), filter .6s ease; filter: saturate(.85);
+}
+.next-card:hover .next-media img, .next-card:focus-visible .next-media img { transform: scale(1.12); filter: saturate(1.05); }
+.next-text { display: flex; flex-direction: column; align-items: flex-start; }
+.next-title { font-family: var(--font-heading); font-size: clamp(2.6rem, 1.6rem + 4.5vw, 6rem); letter-spacing: -0.03em; line-height: 1; }
+.next-focus { margin-top: 1rem; opacity: .85; font-size: clamp(1rem, .9rem + .3vw, 1.2rem); }
+.next-arrow { margin-top: 1.75rem; width: 64px; height: 64px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px currentColor; display: grid; place-items: center; transition: background .3s ease, color .3s ease; }
+.next-arrow svg { width: 26px; height: 26px; transition: transform .35s cubic-bezier(.2, .7, .2, 1); }
+.next-card:hover .next-arrow { background: var(--fg); color: var(--bg); }
+.next-card:hover .next-arrow svg { transform: translateX(5px); }
+.prev-link { display: inline-flex; align-items: center; gap: .6rem; margin-top: clamp(1.75rem, 3vw, 2.5rem); text-decoration: none; opacity: .8; }
+.prev-link svg { width: 9px; height: 16px; stroke: currentColor; stroke-width: 1.5; }
+.prev-link:hover { opacity: 1; text-decoration: underline; }
+/* entrance animation: the cover wipes in and the title rises */
+.js .next-case .next-media { clip-path: inset(0 100% 0 0); transition: clip-path 1.1s cubic-bezier(.7, 0, .2, 1); }
+.js .next-case .next-text > * { opacity: 0; translate: 0 22px; transition: opacity .7s ease, translate .7s cubic-bezier(.2, .7, .2, 1); }
+.js .next-case.is-in .next-media { clip-path: inset(0 0 0 0); }
+.js .next-case.is-in .next-text > * { opacity: 1; translate: 0 0; }
+.js .next-case.is-in .next-text > :nth-child(2) { transition-delay: .12s; }
+.js .next-case.is-in .next-text > :nth-child(3) { transition-delay: .22s; }
+.js .next-case.is-in .next-text > :nth-child(4) { transition-delay: .32s; }
+
+/* ---------- legibility over videos ---------- */
+.scrim::after {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background: linear-gradient(100deg, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .28) 55%, rgba(0, 0, 0, .12) 100%);
+}
+
+/* ---------- Favorite: body text a touch paler for contrast on red (headings keep brand yellow) ---------- */
+.theme-red, .theme-red-dark { --text: #ffe7ab; }
+.theme-red p, .theme-red-dark p, .theme-red p .accent, .theme-red-dark p .accent,
+.theme-red .details-body, .theme-red .details-body .accent { color: var(--text); }
+
+@media (max-width: 767px) {
+  .skills-grid { grid-template-columns: 1fr; }
+  .next-card { grid-template-columns: 1fr; }
+  .next-media { aspect-ratio: 4 / 3; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header, .next-media img, .next-arrow svg { transition: none; }
+  .js .next-case .next-media { clip-path: none; transition: none; }
+  .js .next-case .next-text > * { opacity: 1; translate: none; transition: none; }
+}
+
+/* home hero: tagline sized to sit on one line beside the photo */
+.hero-tagline { font-size: clamp(1.3rem, .9rem + 1.05vw, 1.85rem); line-height: 1.2; margin-bottom: .2em; }

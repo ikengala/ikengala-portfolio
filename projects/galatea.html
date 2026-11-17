@@ -17,31 +17,34 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#000000">
 <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/manrope-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/layout/galatea.css">
 </head>
-<body class="page-galatea">
+<body class="page-galatea is-case">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <a class="logo" href="../index.html" aria-label="Ike Ngala, home">IN</a>
   <nav aria-label="Main">
-    <a class="nav-work" href="../index.html#projects">Work</a>
-    <a class="nav-case" href="../projects/before-i-go-away.html">Before I Go Away</a>
-    <a class="nav-case" href="../projects/galatea.html" aria-current="page">Galatea</a>
-    <a class="nav-case" href="../projects/favorite.html">Favorite</a>
+    <div class="nav-menu">
+      <button class="nav-menu-btn" type="button" aria-expanded="false" aria-controls="case-menu" data-current>Case studies</button>
+      <ul class="nav-menu-list" id="case-menu">
+        <li><a href="../projects/before-i-go-away.html"><img src="../assets/images/web/covers/before-i-go-away-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Before I Go Away</span><span class="menu-focus">Virality</span></span></a></li>
+        <li><a href="../projects/galatea.html" aria-current="page"><img src="../assets/images/web/covers/galatea-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Galatea</span><span class="menu-focus">Press</span></span></a></li>
+        <li><a href="../projects/favorite.html"><img src="../assets/images/web/covers/favorite-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Favorite</span><span class="menu-focus">Long-form brand building</span></span></a></li>
+      </ul>
+    </div>
     <a href="#contact">Contact</a>
-    <a class="nav-cv" href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">CV</a>
+    <a href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">CV</a>
   </nav>
 </header>
 <main id="main">
-<section class="section theme-galatea h-medium has-bg-video is-fluid">
+<section class="section theme-galatea h-medium has-bg-video scrim is-fluid">
 <video class="bg-video" src="../assets/videos/galatea/background-hero.mp4" poster="../assets/images/posters/galatea-background-hero.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
 <div class="section-inner">
 <div class="fluid-engine fe-6a3b0c901038cd3dc83daec7">
-<figure class="fe-block fe-block-yui_3_17_2_1_1782385531461_4276 blk image fit-cover" style="--m-offset-x:-34px;--m-offset-y:-67px;--m-scale-x:1.1;--m-scale-y:1.1"><img src="../assets/images/galatea/hero-cutout.png" alt="Galatea, handwritten title" width="599" height="416" loading="lazy"></figure>
+<figure class="fe-block fe-block-yui_3_17_2_1_1782385531461_4276 blk image fit-cover" style="--m-offset-x:-34px;--m-offset-y:-67px;--m-scale-x:1.1;--m-scale-y:1.1"><img src="../assets/images/web/galatea/hero-cutout-800.webp" srcset="../assets/images/web/galatea/hero-cutout-800.webp 599w" sizes="(max-width: 767px) 100vw, 25vw" alt="Galatea, handwritten title" width="599" height="416" loading="lazy" decoding="async"></figure>
 <div class="fe-block fe-block-f8f0e5e945c6ce06a6d0 blk text">
 <h4><span class="accent"><em>Galatea </em>(released October 2023) is a concept album built around the ancient Greek myth of Pygmalion and the statue, Galatea. The album used the tale as a lens for identity, perfectionism, and self-creation.</span></h4>
 <h4 class="blank"><br></h4>
@@ -71,15 +74,15 @@
 <h2>Marketing Strategy Breakdown</h2>
 </div>
 <div class="fe-block fe-block-yui_3_17_2_1_1782303164911_6463 blk accordion acc-arrow acc-title-left acc-icon-right acc-desc-left acc-dividers acc-no-last-divider" style="--acc-pad-y:50px;--acc-icon:24px;--acc-desc-w:70%">
-<details>
+<details open>
 <summary><span class="acc-title">Phased Single Releases</span><span class="acc-icon" aria-hidden="true"></span></summary>
 <div class="details-body">
 <p>Released singles on a monthly cadence in the months ahead of the album, rather than cold-dropping the project. Each release built on the algorithmic and audience momentum of the last, keeping the project visible across a longer discovery window, as well as earning the album close to 200,000 streams across platforms before its official release.</p>
 </div>
 </details>
 </div>
-<figure class="fe-block fe-block-yui_3_17_2_1_1782315557622_2044 blk image fit-cover"><img src="../assets/images/galatea/img-5337.png" alt="Spotify for Artists screenshot: Galatea at 180,425 all-time streams" width="750" height="1334" loading="lazy"></figure>
-<figure class="fe-block fe-block-138e2464387e9fb1e458 blk image fit-contain"><img src="../assets/images/galatea/img-7913.jpg" alt="Spotify singles list: Miss Me, Tender and Galatea, all 2023" width="1170" height="943" loading="lazy"></figure>
+<figure class="fe-block fe-block-yui_3_17_2_1_1782315557622_2044 blk image fit-cover"><img src="../assets/images/web/galatea/img-5337-800.webp" srcset="../assets/images/web/galatea/img-5337-800.webp 750w" sizes="(max-width: 767px) 100vw, 22vw" alt="Spotify for Artists screenshot: Galatea at 180,425 all-time streams" width="750" height="1334" loading="lazy" decoding="async"></figure>
+<figure class="fe-block fe-block-138e2464387e9fb1e458 blk image fit-contain"><img src="../assets/images/web/galatea/img-7913-800.webp" srcset="../assets/images/web/galatea/img-7913-800.webp 800w" sizes="(max-width: 767px) 100vw, 26vw" alt="Spotify singles list: Miss Me, Tender and Galatea, all 2023" width="1170" height="943" loading="lazy" decoding="async"></figure>
 </div>
 </div>
 </section>
@@ -103,36 +106,36 @@
 <div class="section-inner">
 <div class="gallery-slideshow slideshow-full has-thumbs" data-autoplay="5000">
   <div class="slide-stage"><button class="slide-btn prev" aria-label="Previous slide"></button><ul class="slides">
-    <li class="slide is-active"><img src="../assets/images/galatea/greek-tragedies.png" alt="Galatea track card: Greek Tragedies, with photo and liner notes" width="2500" height="833" loading="lazy" fetchpriority="low"></li>
-    <li class="slide"><img src="../assets/images/galatea/pygs-fly-interlude.png" alt="Galatea track card: Pygs Fly (Interlude), with photo and liner notes" width="2500" height="833" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/divine-intervention.png" alt="Galatea track card: Divine Intervention, with photo and liner notes" width="2500" height="833" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/galatea.png" alt="Galatea track card: Galatea, with photo and liner notes" width="2500" height="833" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/miss-me.png" alt="Galatea track card: Miss Me, with photo and liner notes" width="2500" height="833" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/sculptor.png" alt="Galatea track card: Sculptor, with photo and liner notes" width="2500" height="833" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/tender.png" alt="Galatea track card: Tender, with photo and liner notes" width="2500" height="833" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/the-intro-intro.png" alt="Galatea track card: The Intro (Intro), with photo and liner notes" width="2500" height="833" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/when-pygs-fly.png" alt="Galatea track card: When Pygs Fly, with photo and liner notes" width="2500" height="833" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93.jpeg" alt="Social post: a classical painting with text about the album&#x27;s themes of idealised love, &quot;Fun fact!! &gt;&gt;&quot;" width="1076" height="1442" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3.jpeg" alt="TikTok still: a figure facing a stormy sea, captioned &quot;If you&#x27;re into Percy Jackson&quot;" width="812" height="1440" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf.jpeg" alt="TikTok still: colourful artwork captioned &quot;OR the Epic Saga... You should check out &gt;&gt;&quot;" width="1080" height="1120" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/img-d4936894-ed51-4318-b712-c89368787b75.jpeg" alt="Social post: a classical painting of Pygmalion and his statue, explaining the myth behind Galatea" width="824" height="1442" loading="lazy"></li>
-    <li class="slide"><img src="../assets/images/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda.jpeg" alt="Social post: Galatea album tracklist over the cover photo, &quot;You&#x27;re listening to one of the songs now!&quot;" width="1080" height="1532" loading="lazy"></li>
+    <li class="slide is-active"><img src="../assets/images/web/galatea/greek-tragedies-1600.webp" srcset="../assets/images/web/galatea/greek-tragedies-800.webp 800w, ../assets/images/web/galatea/greek-tragedies-1600.webp 1600w" sizes="90vw" alt="Galatea track card: Greek Tragedies, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async" fetchpriority="low"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/pygs-fly-interlude-1600.webp" srcset="../assets/images/web/galatea/pygs-fly-interlude-800.webp 800w, ../assets/images/web/galatea/pygs-fly-interlude-1600.webp 1600w" sizes="90vw" alt="Galatea track card: Pygs Fly (Interlude), with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/divine-intervention-1600.webp" srcset="../assets/images/web/galatea/divine-intervention-800.webp 800w, ../assets/images/web/galatea/divine-intervention-1600.webp 1600w" sizes="90vw" alt="Galatea track card: Divine Intervention, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/galatea-1600.webp" srcset="../assets/images/web/galatea/galatea-800.webp 800w, ../assets/images/web/galatea/galatea-1600.webp 1600w" sizes="90vw" alt="Galatea track card: Galatea, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/miss-me-1600.webp" srcset="../assets/images/web/galatea/miss-me-800.webp 800w, ../assets/images/web/galatea/miss-me-1600.webp 1600w" sizes="90vw" alt="Galatea track card: Miss Me, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/sculptor-1600.webp" srcset="../assets/images/web/galatea/sculptor-800.webp 800w, ../assets/images/web/galatea/sculptor-1600.webp 1600w" sizes="90vw" alt="Galatea track card: Sculptor, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/tender-1600.webp" srcset="../assets/images/web/galatea/tender-800.webp 800w, ../assets/images/web/galatea/tender-1600.webp 1600w" sizes="90vw" alt="Galatea track card: Tender, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/the-intro-intro-1600.webp" srcset="../assets/images/web/galatea/the-intro-intro-800.webp 800w, ../assets/images/web/galatea/the-intro-intro-1600.webp 1600w" sizes="90vw" alt="Galatea track card: The Intro (Intro), with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/when-pygs-fly-1600.webp" srcset="../assets/images/web/galatea/when-pygs-fly-800.webp 800w, ../assets/images/web/galatea/when-pygs-fly-1600.webp 1600w" sizes="90vw" alt="Galatea track card: When Pygs Fly, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93-800.webp" srcset="../assets/images/web/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93-800.webp 800w" sizes="90vw" alt="Social post: a classical painting with text about the album&#x27;s themes of idealised love, &quot;Fun fact!! &gt;&gt;&quot;" width="1076" height="1442" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3-800.webp" srcset="../assets/images/web/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3-800.webp 800w" sizes="90vw" alt="TikTok still: a figure facing a stormy sea, captioned &quot;If you&#x27;re into Percy Jackson&quot;" width="812" height="1440" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf-800.webp" srcset="../assets/images/web/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf-800.webp 800w" sizes="90vw" alt="TikTok still: colourful artwork captioned &quot;OR the Epic Saga... You should check out &gt;&gt;&quot;" width="1080" height="1120" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/img-d4936894-ed51-4318-b712-c89368787b75-800.webp" srcset="../assets/images/web/galatea/img-d4936894-ed51-4318-b712-c89368787b75-800.webp 800w" sizes="90vw" alt="Social post: a classical painting of Pygmalion and his statue, explaining the myth behind Galatea" width="824" height="1442" loading="lazy" decoding="async"></li>
+    <li class="slide"><img src="../assets/images/web/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda-800.webp" srcset="../assets/images/web/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda-800.webp 800w" sizes="90vw" alt="Social post: Galatea album tracklist over the cover photo, &quot;You&#x27;re listening to one of the songs now!&quot;" width="1080" height="1532" loading="lazy" decoding="async"></li>
   </ul><button class="slide-btn next" aria-label="Next slide"></button></div>
   <div class="slide-thumbs">
-    <button class="thumb is-active" aria-label="Show slide 1"><img src="../assets/images/galatea/greek-tragedies.png" alt="Galatea track card: Greek Tragedies, with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 2"><img src="../assets/images/galatea/pygs-fly-interlude.png" alt="Galatea track card: Pygs Fly (Interlude), with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 3"><img src="../assets/images/galatea/divine-intervention.png" alt="Galatea track card: Divine Intervention, with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 4"><img src="../assets/images/galatea/galatea.png" alt="Galatea track card: Galatea, with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 5"><img src="../assets/images/galatea/miss-me.png" alt="Galatea track card: Miss Me, with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 6"><img src="../assets/images/galatea/sculptor.png" alt="Galatea track card: Sculptor, with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 7"><img src="../assets/images/galatea/tender.png" alt="Galatea track card: Tender, with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 8"><img src="../assets/images/galatea/the-intro-intro.png" alt="Galatea track card: The Intro (Intro), with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 9"><img src="../assets/images/galatea/when-pygs-fly.png" alt="Galatea track card: When Pygs Fly, with photo and liner notes" width="2500" height="833" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 10"><img src="../assets/images/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93.jpeg" alt="Social post: a classical painting with text about the album&#x27;s themes of idealised love, &quot;Fun fact!! &gt;&gt;&quot;" width="1076" height="1442" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 11"><img src="../assets/images/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3.jpeg" alt="TikTok still: a figure facing a stormy sea, captioned &quot;If you&#x27;re into Percy Jackson&quot;" width="812" height="1440" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 12"><img src="../assets/images/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf.jpeg" alt="TikTok still: colourful artwork captioned &quot;OR the Epic Saga... You should check out &gt;&gt;&quot;" width="1080" height="1120" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 13"><img src="../assets/images/galatea/img-d4936894-ed51-4318-b712-c89368787b75.jpeg" alt="Social post: a classical painting of Pygmalion and his statue, explaining the myth behind Galatea" width="824" height="1442" loading="lazy"></button>
-    <button class="thumb" aria-label="Show slide 14"><img src="../assets/images/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda.jpeg" alt="Social post: Galatea album tracklist over the cover photo, &quot;You&#x27;re listening to one of the songs now!&quot;" width="1080" height="1532" loading="lazy"></button>
+    <button class="thumb is-active" aria-label="Show slide 1"><img src="../assets/images/web/galatea/greek-tragedies-1600.webp" srcset="../assets/images/web/galatea/greek-tragedies-800.webp 800w, ../assets/images/web/galatea/greek-tragedies-1600.webp 1600w" sizes="80px" alt="Galatea track card: Greek Tragedies, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 2"><img src="../assets/images/web/galatea/pygs-fly-interlude-1600.webp" srcset="../assets/images/web/galatea/pygs-fly-interlude-800.webp 800w, ../assets/images/web/galatea/pygs-fly-interlude-1600.webp 1600w" sizes="80px" alt="Galatea track card: Pygs Fly (Interlude), with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 3"><img src="../assets/images/web/galatea/divine-intervention-1600.webp" srcset="../assets/images/web/galatea/divine-intervention-800.webp 800w, ../assets/images/web/galatea/divine-intervention-1600.webp 1600w" sizes="80px" alt="Galatea track card: Divine Intervention, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 4"><img src="../assets/images/web/galatea/galatea-1600.webp" srcset="../assets/images/web/galatea/galatea-800.webp 800w, ../assets/images/web/galatea/galatea-1600.webp 1600w" sizes="80px" alt="Galatea track card: Galatea, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 5"><img src="../assets/images/web/galatea/miss-me-1600.webp" srcset="../assets/images/web/galatea/miss-me-800.webp 800w, ../assets/images/web/galatea/miss-me-1600.webp 1600w" sizes="80px" alt="Galatea track card: Miss Me, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 6"><img src="../assets/images/web/galatea/sculptor-1600.webp" srcset="../assets/images/web/galatea/sculptor-800.webp 800w, ../assets/images/web/galatea/sculptor-1600.webp 1600w" sizes="80px" alt="Galatea track card: Sculptor, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 7"><img src="../assets/images/web/galatea/tender-1600.webp" srcset="../assets/images/web/galatea/tender-800.webp 800w, ../assets/images/web/galatea/tender-1600.webp 1600w" sizes="80px" alt="Galatea track card: Tender, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 8"><img src="../assets/images/web/galatea/the-intro-intro-1600.webp" srcset="../assets/images/web/galatea/the-intro-intro-800.webp 800w, ../assets/images/web/galatea/the-intro-intro-1600.webp 1600w" sizes="80px" alt="Galatea track card: The Intro (Intro), with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 9"><img src="../assets/images/web/galatea/when-pygs-fly-1600.webp" srcset="../assets/images/web/galatea/when-pygs-fly-800.webp 800w, ../assets/images/web/galatea/when-pygs-fly-1600.webp 1600w" sizes="80px" alt="Galatea track card: When Pygs Fly, with photo and liner notes" width="2500" height="833" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 10"><img src="../assets/images/web/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93-800.webp" srcset="../assets/images/web/galatea/img-4d33c1dd-8cc2-49a8-8add-68bb1d966e93-800.webp 800w" sizes="80px" alt="Social post: a classical painting with text about the album&#x27;s themes of idealised love, &quot;Fun fact!! &gt;&gt;&quot;" width="1076" height="1442" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 11"><img src="../assets/images/web/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3-800.webp" srcset="../assets/images/web/galatea/img-56d4bf5b-a773-4b28-8478-c0a5029f25f3-800.webp 800w" sizes="80px" alt="TikTok still: a figure facing a stormy sea, captioned &quot;If you&#x27;re into Percy Jackson&quot;" width="812" height="1440" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 12"><img src="../assets/images/web/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf-800.webp" srcset="../assets/images/web/galatea/img-716fbb04-ed1f-41f5-9742-340d0baf85cf-800.webp 800w" sizes="80px" alt="TikTok still: colourful artwork captioned &quot;OR the Epic Saga... You should check out &gt;&gt;&quot;" width="1080" height="1120" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 13"><img src="../assets/images/web/galatea/img-d4936894-ed51-4318-b712-c89368787b75-800.webp" srcset="../assets/images/web/galatea/img-d4936894-ed51-4318-b712-c89368787b75-800.webp 800w" sizes="80px" alt="Social post: a classical painting of Pygmalion and his statue, explaining the myth behind Galatea" width="824" height="1442" loading="lazy" decoding="async"></button>
+    <button class="thumb" aria-label="Show slide 14"><img src="../assets/images/web/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda-800.webp" srcset="../assets/images/web/galatea/img-e9b61c34-175c-46e0-901d-c32ad23cebda-800.webp 800w" sizes="80px" alt="Social post: Galatea album tracklist over the cover photo, &quot;You&#x27;re listening to one of the songs now!&quot;" width="1080" height="1532" loading="lazy" decoding="async"></button>
   </div>
 </div>
 </div>
@@ -155,15 +158,15 @@
 <div class="section-inner">
 <div class="gallery-strips" style="--gap:20px">
   <div class="strip-row">
-    <figure style="--ratio:0.5026"><img src="../assets/images/galatea/img-7916.jpg" alt="Stereofox article about the song Galatea" width="1167" height="2322" loading="lazy"></figure>
-    <figure style="--ratio:0.4899"><img src="../assets/images/galatea/img-7917.jpg" alt="LeftLion interview headline about the album Galatea" width="1169" height="2386" loading="lazy"></figure>
-    <figure style="--ratio:0.5794"><img src="../assets/images/galatea/img-7918.jpg" alt="The Herald article: &quot;IkeN&#x27;s &#x27;Galatea&#x27;: modern Alt-R&amp;B album depicting pitfalls of unrealistic love&quot;" width="1168" height="2016" loading="lazy"></figure>
-    <figure style="--ratio:0.5946"><img src="../assets/images/galatea/img-7919.jpg" alt="Ameyaw Debrah article: &quot;IkeN&#x27;s &#x27;Galatea&#x27;: Modern Alt-R&amp;B Album Depicting Pitfalls of Unrealistic Love&quot;" width="1169" height="1966" loading="lazy"></figure>
-    <figure style="--ratio:0.5410"><img src="../assets/images/galatea/img-7920.jpg" alt="Album review: &#x27;Galatea&#x27; by IkeN" width="1169" height="2161" loading="lazy"></figure>
-    <figure style="--ratio:0.6187"><img src="../assets/images/galatea/img-7921.jpg" alt="Glide Magazine: &quot;LISTEN: IkeN Captures Soulful Frank Ocean Styled Melodies On &#x27;Miss Me&#x27;&quot;" width="1170" height="1891" loading="lazy"></figure>
-    <figure style="--ratio:0.5744"><img src="../assets/images/galatea/img-7924.jpg" alt="Alfitude New Music feature on IkeN" width="1170" height="2037" loading="lazy"></figure>
-    <figure style="--ratio:0.6973"><img src="../assets/images/galatea/img-7922.jpg" alt="Channel WAVY review: &quot;IkeN&#x27;s &#x27;Miss Me&#x27; – A Captivating Ode To Love And Loss&quot;" width="1170" height="1678" loading="lazy"></figure>
-    <figure style="--ratio:0.5360"><img src="../assets/images/galatea/img-7923.jpg" alt="Aipate article: &quot;IkeN&#x27;s new song &#x27;Miss Me&#x27; readies us for his upcoming album&quot;" width="1169" height="2181" loading="lazy"></figure>
+    <figure style="--ratio:0.5026"><img src="../assets/images/web/galatea/img-7916-800.webp" srcset="../assets/images/web/galatea/img-7916-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Stereofox article about the song Galatea" width="1167" height="2322" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.4899"><img src="../assets/images/web/galatea/img-7917-800.webp" srcset="../assets/images/web/galatea/img-7917-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="LeftLion interview headline about the album Galatea" width="1169" height="2386" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.5794"><img src="../assets/images/web/galatea/img-7918-800.webp" srcset="../assets/images/web/galatea/img-7918-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="The Herald article: &quot;IkeN&#x27;s &#x27;Galatea&#x27;: modern Alt-R&amp;B album depicting pitfalls of unrealistic love&quot;" width="1168" height="2016" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.5946"><img src="../assets/images/web/galatea/img-7919-800.webp" srcset="../assets/images/web/galatea/img-7919-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Ameyaw Debrah article: &quot;IkeN&#x27;s &#x27;Galatea&#x27;: Modern Alt-R&amp;B Album Depicting Pitfalls of Unrealistic Love&quot;" width="1169" height="1966" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.5410"><img src="../assets/images/web/galatea/img-7920-800.webp" srcset="../assets/images/web/galatea/img-7920-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Album review: &#x27;Galatea&#x27; by IkeN" width="1169" height="2161" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.6187"><img src="../assets/images/web/galatea/img-7921-800.webp" srcset="../assets/images/web/galatea/img-7921-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Glide Magazine: &quot;LISTEN: IkeN Captures Soulful Frank Ocean Styled Melodies On &#x27;Miss Me&#x27;&quot;" width="1170" height="1891" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.5744"><img src="../assets/images/web/galatea/img-7924-800.webp" srcset="../assets/images/web/galatea/img-7924-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Alfitude New Music feature on IkeN" width="1170" height="2037" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.6973"><img src="../assets/images/web/galatea/img-7922-800.webp" srcset="../assets/images/web/galatea/img-7922-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Channel WAVY review: &quot;IkeN&#x27;s &#x27;Miss Me&#x27; – A Captivating Ode To Love And Loss&quot;" width="1170" height="1678" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.5360"><img src="../assets/images/web/galatea/img-7923-800.webp" srcset="../assets/images/web/galatea/img-7923-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Aipate article: &quot;IkeN&#x27;s new song &#x27;Miss Me&#x27; readies us for his upcoming album&quot;" width="1169" height="2181" loading="lazy" decoding="async"></figure>
   </div>
 </div>
 </div>
@@ -186,10 +189,10 @@
 <div class="section-inner">
 <div class="gallery-slideshow slideshow-wide" data-autoplay="5000">
   <div class="slide-stage"><button class="slide-btn prev" aria-label="Previous slide"></button><ul class="slides">
-    <li class="slide is-active"><a href="https://youtu.be/kGn6ozXIJ9c?si=yTI4r4vjpxVwvXAa" target="_blank" rel="noopener"><img src="../assets/images/galatea/your-turn-vid-cover.png" alt="Your Turn video thumbnail" width="1536" height="864" loading="lazy" fetchpriority="low"></a></li>
-    <li class="slide"><a href="https://youtu.be/uUPY8g4r6kw?si=krdsWkQhUFs7UEVd" target="_blank" rel="noopener"><img src="../assets/images/galatea/divint-vid-cover.png" alt="Divine Intervention video thumbnail" width="1536" height="864" loading="lazy"></a></li>
-    <li class="slide"><a href="https://youtu.be/IhTsx19Xz7g?si=kELCjV_Y0JZPvSu3" target="_blank" rel="noopener"><img src="../assets/images/galatea/miss-me-vid-cover.png" alt="Miss Me video thumbnail" width="1534" height="862" loading="lazy"></a></li>
-    <li class="slide"><a href="https://youtu.be/q6n9-YpYnUI?si=fGVvtN2CgS5DhfJj" target="_blank" rel="noopener"><img src="../assets/images/galatea/galatea-vid-cover.png" alt="Galatea video thumbnail" width="1464" height="825" loading="lazy"></a></li>
+    <li class="slide is-active"><a href="https://youtu.be/kGn6ozXIJ9c?si=yTI4r4vjpxVwvXAa" target="_blank" rel="noopener"><img src="../assets/images/web/galatea/your-turn-vid-cover-800.webp" srcset="../assets/images/web/galatea/your-turn-vid-cover-800.webp 800w" sizes="90vw" alt="Your Turn video thumbnail" width="1536" height="864" loading="lazy" decoding="async" fetchpriority="low"></a></li>
+    <li class="slide"><a href="https://youtu.be/uUPY8g4r6kw?si=krdsWkQhUFs7UEVd" target="_blank" rel="noopener"><img src="../assets/images/web/galatea/divint-vid-cover-800.webp" srcset="../assets/images/web/galatea/divint-vid-cover-800.webp 800w" sizes="90vw" alt="Divine Intervention video thumbnail" width="1536" height="864" loading="lazy" decoding="async"></a></li>
+    <li class="slide"><a href="https://youtu.be/IhTsx19Xz7g?si=kELCjV_Y0JZPvSu3" target="_blank" rel="noopener"><img src="../assets/images/web/galatea/miss-me-vid-cover-800.webp" srcset="../assets/images/web/galatea/miss-me-vid-cover-800.webp 800w" sizes="90vw" alt="Miss Me video thumbnail" width="1534" height="862" loading="lazy" decoding="async"></a></li>
+    <li class="slide"><a href="https://youtu.be/q6n9-YpYnUI?si=fGVvtN2CgS5DhfJj" target="_blank" rel="noopener"><img src="../assets/images/web/galatea/galatea-vid-cover-800.webp" srcset="../assets/images/web/galatea/galatea-vid-cover-800.webp 800w" sizes="90vw" alt="Galatea video thumbnail" width="1464" height="825" loading="lazy" decoding="async"></a></li>
   </ul><button class="slide-btn next" aria-label="Next slide"></button></div>
 </div>
 </div>
@@ -235,22 +238,31 @@
 <section class="section theme-light h-medium is-gallery">
 <div class="section-inner">
 <div class="gallery-reel"><button class="reel-btn prev" aria-label="Scroll left"></button><ul class="reel-track">
-  <li><img src="../assets/images/galatea/img-0363.jpg" alt="Spotify playlist cover: Eastern Vibes, featuring the Galatea cover photo" width="300" height="300" loading="lazy"></li>
-  <li><img src="../assets/images/galatea/img-0365.jpg" alt="Spotify playlist cover: Cocoa Butter" width="300" height="300" loading="lazy"></li>
-  <li><img src="../assets/images/galatea/img-0366.jpg" alt="Spotify playlist cover: Sizzlers" width="300" height="300" loading="lazy"></li>
-  <li><img src="../assets/images/galatea/img-0367.jpg" alt="Spotify playlist cover: New Music Friday" width="300" height="300" loading="lazy"></li>
-  <li><img src="../assets/images/galatea/img-0368.jpg" alt="Spotify playlist cover: up:date" width="799" height="797" loading="lazy"></li>
-  <li><img src="../assets/images/galatea/img-5376.jpg" alt="Spotify playlist cover: POLLEN" width="469" height="468" loading="lazy"></li>
-  <li><img src="../assets/images/galatea/img-0364.jpg" alt="Spotify playlist cover: Sound Semester" width="300" height="300" loading="lazy"></li>
-  <li><img src="../assets/images/galatea/img-7915.jpg" alt="Artist graphic: IkeN, Kenya, on a colourful background" width="1170" height="1168" loading="lazy"></li>
-  <li><img src="../assets/images/galatea/img-4979-copy.png" alt="Amazon Music playlist cover: Breakthrough R&amp;B" width="509" height="512" loading="lazy"></li>
+  <li><img src="../assets/images/web/galatea/img-0363-800.webp" srcset="../assets/images/web/galatea/img-0363-800.webp 300w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: Eastern Vibes, featuring the Galatea cover photo" width="300" height="300" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/galatea/img-0365-800.webp" srcset="../assets/images/web/galatea/img-0365-800.webp 300w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: Cocoa Butter" width="300" height="300" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/galatea/img-0366-800.webp" srcset="../assets/images/web/galatea/img-0366-800.webp 300w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: Sizzlers" width="300" height="300" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/galatea/img-0367-800.webp" srcset="../assets/images/web/galatea/img-0367-800.webp 300w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: New Music Friday" width="300" height="300" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/galatea/img-0368-800.webp" srcset="../assets/images/web/galatea/img-0368-800.webp 799w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: up:date" width="799" height="797" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/galatea/img-5376-800.webp" srcset="../assets/images/web/galatea/img-5376-800.webp 469w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: POLLEN" width="469" height="468" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/galatea/img-0364-800.webp" srcset="../assets/images/web/galatea/img-0364-800.webp 300w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: Sound Semester" width="300" height="300" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/galatea/img-7915-800.webp" srcset="../assets/images/web/galatea/img-7915-800.webp 800w" sizes="(max-width: 767px) 60vw, 24vw" alt="Artist graphic: IkeN, Kenya, on a colourful background" width="1170" height="1168" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/galatea/img-4979-copy-800.webp" srcset="../assets/images/web/galatea/img-4979-copy-800.webp 509w" sizes="(max-width: 767px) 60vw, 24vw" alt="Amazon Music playlist cover: Breakthrough R&amp;B" width="509" height="512" loading="lazy" decoding="async"></li>
 </ul><button class="reel-btn next" aria-label="Scroll right"></button></div>
 </div>
 </section>
+<section class="takeaway theme-light" aria-labelledby="takeaway-title">
+  <div class="takeaway-inner">
+  <h2 id="takeaway-title" class="eyebrow">Key takeaway</h2>
+  <p>A strong concept gives press and playlists a story to tell. Building the campaign around the Pygmalion myth gave every single, post and pitch a hook, so the narrative did the work a large budget usually does.</p>
+  </div>
+</section>
 </main>
-<nav class="pager theme-light" aria-label="Case studies">
-  <a class="prev" href="before-i-go-away.html"><span class="visually-hidden">Previous: </span><svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" points="7.3,14.7 2.5,8 7.3,1.2"/></svg><span class="pager-title">Before I Go Away</span></a>
-  <a class="next" href="favorite.html"><span class="visually-hidden">Next: </span><span class="pager-title">Favorite</span><svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" points="1.6,1.2 6.5,7.9 1.6,14.7"/></svg></a>
+<nav class="next-case theme-red" aria-label="More case studies">
+  <a class="next-card" href="favorite.html">
+    <span class="next-media"><img src="../assets/images/web/covers/favorite-1600.webp" srcset="../assets/images/web/covers/favorite-800.webp 800w, ../assets/images/web/covers/favorite-1600.webp 1600w" sizes="(max-width: 767px) 100vw, 40vw" alt="Favorite cover art: a red-lit room with handwritten title" width="2500" height="2500" loading="lazy" decoding="async"></span>
+    <span class="next-text"><span class="eyebrow">Next case study</span><span class="next-title">Favorite</span><span class="next-focus">Long-form brand building · 8 Spotify editorial playlists in one release</span><span class="next-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></span>
+  </a>
+  <a class="prev-link" href="before-i-go-away.html"><svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" points="7.3,14.7 2.5,8 7.3,1.2"/></svg>Previous: Before I Go Away</a>
 </nav>
 <footer class="site-footer theme-dark" id="contact">
   <div class="footer-inner">
@@ -260,6 +272,7 @@
         <p class="footer-note">Currently open to marketing roles in brand strategy and audience growth.</p>
       </div>
       <a class="button button-outline" href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">Download CV</a>
+      <a class="button button-outline" href="../assets/files/Ike-Ngala-Portfolio.pdf" target="_blank" rel="noopener">Portfolio PDF</a>
       <a class="button" href="mailto:ike.ngala@gmail.com">Email me</a>
     </div>
     <dl>

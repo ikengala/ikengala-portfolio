@@ -17,31 +17,34 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#ca2216">
 <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/manrope-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/layout/favorite.css">
 </head>
-<body class="page-favorite">
+<body class="page-favorite is-case">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <a class="logo" href="../index.html" aria-label="Ike Ngala, home">IN</a>
   <nav aria-label="Main">
-    <a class="nav-work" href="../index.html#projects">Work</a>
-    <a class="nav-case" href="../projects/before-i-go-away.html">Before I Go Away</a>
-    <a class="nav-case" href="../projects/galatea.html">Galatea</a>
-    <a class="nav-case" href="../projects/favorite.html" aria-current="page">Favorite</a>
+    <div class="nav-menu">
+      <button class="nav-menu-btn" type="button" aria-expanded="false" aria-controls="case-menu" data-current>Case studies</button>
+      <ul class="nav-menu-list" id="case-menu">
+        <li><a href="../projects/before-i-go-away.html"><img src="../assets/images/web/covers/before-i-go-away-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Before I Go Away</span><span class="menu-focus">Virality</span></span></a></li>
+        <li><a href="../projects/galatea.html"><img src="../assets/images/web/covers/galatea-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Galatea</span><span class="menu-focus">Press</span></span></a></li>
+        <li><a href="../projects/favorite.html" aria-current="page"><img src="../assets/images/web/covers/favorite-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Favorite</span><span class="menu-focus">Long-form brand building</span></span></a></li>
+      </ul>
+    </div>
     <a href="#contact">Contact</a>
-    <a class="nav-cv" href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">CV</a>
+    <a href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">CV</a>
   </nav>
 </header>
 <main id="main">
-<section class="section theme-red h-custom has-bg-video is-fluid">
+<section class="section theme-red h-custom has-bg-video scrim is-fluid">
 <video class="bg-video" src="../assets/videos/favorite/background.mp4" poster="../assets/images/posters/favorite-background.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
 <div class="section-inner">
 <div class="fluid-engine fe-6a3b0c8f1038cd3dc83dad6b">
-<figure class="fe-block fe-block-yui_3_17_2_1_1782397815637_11182 blk image fit-cover" style="--m-offset-x:-24px;--m-offset-y:-50px"><img src="../assets/images/favorite/hero-cutout.png" alt="Favorite, handwritten title" width="500" height="500" loading="lazy"></figure>
+<figure class="fe-block fe-block-yui_3_17_2_1_1782397815637_11182 blk image fit-cover" style="--m-offset-x:-24px;--m-offset-y:-50px"><img src="../assets/images/web/favorite/hero-cutout-800.webp" srcset="../assets/images/web/favorite/hero-cutout-800.webp 500w" sizes="(max-width: 767px) 100vw, 22vw" alt="Favorite, handwritten title" width="500" height="500" loading="lazy" decoding="async"></figure>
 <div class="fe-block fe-block-yui_3_17_2_1_1782385921824_2451 blk text">
 <p class="large"><span class="accent"><em>Favorite </em>(released April 2026) is not so much a strategy case study but rather a <em>validation </em>case study. Throughout the course of the BCZIKN project, one of my biggest challenges has been figuring out how to market East African-made music as more than the geographic label that precedes it. Especially in the beginning of this project, songs would be routinely filed alongside other “<em>Afro</em>-[X]” tags (afro-indie, afro-R&amp;B, afro-acoustic), regardless of whether the song actually belonged to that genre, or whether its audience was even based in Africa to begin with.</span></p>
 <p class="large blank"><br></p>
@@ -68,23 +71,23 @@
 <div class="section-inner">
 <div class="fluid-engine fe-6a3d3deb9afeb32158aaade8">
 <div class="fe-block fe-block-34540b7130d848f13cb5 blk accordion acc-arrow acc-title-left acc-icon-right acc-desc-left" style="--acc-pad-y:30px;--acc-icon:30px;--acc-desc-w:70%">
-<details>
+<details open>
 <summary><span class="acc-title">Consistent Press Messaging</span><span class="acc-icon" aria-hidden="true"></span></summary>
 <div class="details-body">
 <p>For the last few years that the project has been ongoing, the same position has been held: that East African music doesn’t have to sound “African” to be considered East African, and furthermore, that East Africans <strong><em>can and do </em></strong>make music that isn’t simply Afro-derivative. Furthermore, that the music industry has yet to make room for African artists whose work doesn’t fit a stereotyped, genre-coded idea of what “African” music is supposed to sound like. Favorite’s reception is the clearest sign thyet that this position is starting to be heard.</p>
 </div>
 </details>
 </div>
-<figure class="fe-block fe-block-yui_3_17_2_1_1782397815637_5514 blk image fit-contain"><a href="https://blavity.com/blavity-original/east-african-artists-afrobeats" target="_blank" rel="noopener"><img src="../assets/images/favorite/img-0646.jpg" alt="Blavity headline: &quot;Why Are East African Artists Left Out Of The Global Afrobeats Boom?&quot; (links to the article)" width="1689" height="1576" loading="lazy"></a></figure>
-<figure class="fe-block fe-block-e508bf3416058c9e2c52 blk image fit-contain"><a href="https://blavity.com/blavity-original/east-african-artists-afrobeats" target="_blank" rel="noopener"><img src="../assets/images/favorite/img-0647.jpeg" alt="Blavity article excerpt with a highlighted quote about the &#x27;African&#x27; music label (links to the article)" width="1676" height="837" loading="lazy"></a></figure>
-<figure class="fe-block fe-block-725eabc4bf60d4107c7a blk image fit-contain"><a href="https://blavity.com/blavity-original/east-african-artists-afrobeats" target="_blank" rel="noopener"><img src="../assets/images/favorite/img-0648.jpg" alt="Blavity article excerpt with a highlighted line about African artists being expected to sound a certain way (links to the article)" width="1358" height="653" loading="lazy"></a></figure>
-<figure class="fe-block fe-block-c1ac928a1349898d3ec3 blk image fit-contain"><a href="https://leftlion.co.uk/features/2024/02/we-chat-to-kenyan-alt-rnb-artist-iken-all-about-his-debut-album-galatea/" target="_blank" rel="noopener"><img src="../assets/images/favorite/img-0645.jpeg" alt="LeftLion headline: &quot;We Chat to Kenyan Alt-RnB Artist IkeN All About His Debut Album &#x27;Galatea&#x27;&quot; (links to the article)" width="1551" height="1414" loading="lazy"></a></figure>
-<figure class="fe-block fe-block-fedc507dd04c42954340 blk image fit-contain"><a href="https://leftlion.co.uk/features/2024/02/we-chat-to-kenyan-alt-rnb-artist-iken-all-about-his-debut-album-galatea/" target="_blank" rel="noopener"><img src="../assets/images/favorite/img-0644.jpeg" alt="LeftLion interview excerpt with highlighted quote about genre (links to the article)" width="1566" height="1414" loading="lazy"></a></figure>
-<figure class="fe-block fe-block-447780d63cdedb6d1142 blk image fit-contain"><a href="https://pointzeroworld.com/2026/05/10/iken-from-emotions-to-music/?utm_source=ig&amp;utm_medium=social&amp;utm_content=link_in_bio" target="_blank" rel="noopener"><img src="../assets/images/favorite/img-0650.jpg" alt="Point Zero World feature: &quot;IkeN: from emotions to music&quot; (links to the article)" width="2290" height="1406" loading="lazy"></a></figure>
+<figure class="fe-block fe-block-yui_3_17_2_1_1782397815637_5514 blk image fit-contain"><a href="https://blavity.com/blavity-original/east-african-artists-afrobeats" target="_blank" rel="noopener"><img src="../assets/images/web/favorite/img-0646-1600.webp" srcset="../assets/images/web/favorite/img-0646-800.webp 800w, ../assets/images/web/favorite/img-0646-1600.webp 1600w" sizes="(max-width: 767px) 100vw, 30vw" alt="Blavity headline: &quot;Why Are East African Artists Left Out Of The Global Afrobeats Boom?&quot; (links to the article)" width="1689" height="1576" loading="lazy" decoding="async"></a></figure>
+<figure class="fe-block fe-block-e508bf3416058c9e2c52 blk image fit-contain"><a href="https://blavity.com/blavity-original/east-african-artists-afrobeats" target="_blank" rel="noopener"><img src="../assets/images/web/favorite/img-0647-1600.webp" srcset="../assets/images/web/favorite/img-0647-800.webp 800w, ../assets/images/web/favorite/img-0647-1600.webp 1600w" sizes="(max-width: 767px) 100vw, 42vw" alt="Blavity article excerpt with a highlighted quote about the &#x27;African&#x27; music label (links to the article)" width="1676" height="837" loading="lazy" decoding="async"></a></figure>
+<figure class="fe-block fe-block-725eabc4bf60d4107c7a blk image fit-contain"><a href="https://blavity.com/blavity-original/east-african-artists-afrobeats" target="_blank" rel="noopener"><img src="../assets/images/web/favorite/img-0648-800.webp" srcset="../assets/images/web/favorite/img-0648-800.webp 800w" sizes="(max-width: 767px) 100vw, 42vw" alt="Blavity article excerpt with a highlighted line about African artists being expected to sound a certain way (links to the article)" width="1358" height="653" loading="lazy" decoding="async"></a></figure>
+<figure class="fe-block fe-block-c1ac928a1349898d3ec3 blk image fit-contain"><a href="https://leftlion.co.uk/features/2024/02/we-chat-to-kenyan-alt-rnb-artist-iken-all-about-his-debut-album-galatea/" target="_blank" rel="noopener"><img src="../assets/images/web/favorite/img-0645-800.webp" srcset="../assets/images/web/favorite/img-0645-800.webp 800w" sizes="(max-width: 767px) 100vw, 30vw" alt="LeftLion headline: &quot;We Chat to Kenyan Alt-RnB Artist IkeN All About His Debut Album &#x27;Galatea&#x27;&quot; (links to the article)" width="1551" height="1414" loading="lazy" decoding="async"></a></figure>
+<figure class="fe-block fe-block-fedc507dd04c42954340 blk image fit-contain"><a href="https://leftlion.co.uk/features/2024/02/we-chat-to-kenyan-alt-rnb-artist-iken-all-about-his-debut-album-galatea/" target="_blank" rel="noopener"><img src="../assets/images/web/favorite/img-0644-800.webp" srcset="../assets/images/web/favorite/img-0644-800.webp 800w" sizes="(max-width: 767px) 100vw, 34vw" alt="LeftLion interview excerpt with highlighted quote about genre (links to the article)" width="1566" height="1414" loading="lazy" decoding="async"></a></figure>
+<figure class="fe-block fe-block-447780d63cdedb6d1142 blk image fit-contain"><a href="https://pointzeroworld.com/2026/05/10/iken-from-emotions-to-music/?utm_source=ig&amp;utm_medium=social&amp;utm_content=link_in_bio" target="_blank" rel="noopener"><img src="../assets/images/web/favorite/img-0650-1600.webp" srcset="../assets/images/web/favorite/img-0650-800.webp 800w, ../assets/images/web/favorite/img-0650-1600.webp 1600w" sizes="(max-width: 767px) 100vw, 42vw" alt="Point Zero World feature: &quot;IkeN: from emotions to music&quot; (links to the article)" width="2290" height="1406" loading="lazy" decoding="async"></a></figure>
 </div>
 </div>
 </section>
-<section class="section theme-red h-small has-bg-video is-fluid">
+<section class="section theme-red h-small has-bg-video scrim is-fluid">
 <video class="bg-video" style="filter:opacity(0.7)" src="../assets/videos/favorite/background.mp4" poster="../assets/images/posters/favorite-background.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
 <div class="section-inner">
 <div class="fluid-engine fe-6a3d45ac5db4054ef66f1deb">
@@ -104,21 +107,31 @@
 <section class="section theme-red-dark h-medium is-gallery">
 <div class="section-inner">
 <div class="gallery-reel"><button class="reel-btn prev" aria-label="Scroll left"></button><ul class="reel-track">
-  <li><img src="../assets/images/favorite/img-7290.jpg" alt="Spotify playlist cover: Just Dropped" width="570" height="570" loading="lazy"></li>
-  <li><img src="../assets/images/favorite/img-7291.jpg" alt="Spotify playlist cover: NairoBae" width="567" height="571" loading="lazy"></li>
-  <li><img src="../assets/images/favorite/img-7292.jpg" alt="Spotify playlist cover: Barefoot and Free" width="569" height="575" loading="lazy"></li>
-  <li><img src="../assets/images/favorite/img-7293.jpg" alt="Spotify playlist cover: New Music Friday UK" width="568" height="562" loading="lazy"></li>
-  <li><img src="../assets/images/favorite/img-7294.jpg" alt="Spotify playlist cover: New Music Friday Naija" width="569" height="572" loading="lazy"></li>
-  <li><img src="../assets/images/favorite/img-7295.jpg" alt="Spotify playlist cover: R&amp;B Right Now" width="300" height="300" loading="lazy"></li>
-  <li><img src="../assets/images/favorite/img-7296.jpg" alt="Spotify playlist cover: New Music Friday Kenya" width="300" height="300" loading="lazy"></li>
-  <li><img src="../assets/images/favorite/img-7297.jpg" alt="Spotify playlist cover: New Music Friday South Africa" width="300" height="300" loading="lazy"></li>
-  <li><img src="../assets/images/favorite/img-7298.jpg" alt="Spotify playlist cover: Afro&amp;B" width="483" height="474" loading="lazy"></li>
+  <li><img src="../assets/images/web/favorite/img-7290-800.webp" srcset="../assets/images/web/favorite/img-7290-800.webp 570w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: Just Dropped" width="570" height="570" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/favorite/img-7291-800.webp" srcset="../assets/images/web/favorite/img-7291-800.webp 567w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: NairoBae" width="567" height="571" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/favorite/img-7292-800.webp" srcset="../assets/images/web/favorite/img-7292-800.webp 569w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: Barefoot and Free" width="569" height="575" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/favorite/img-7293-800.webp" srcset="../assets/images/web/favorite/img-7293-800.webp 568w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: New Music Friday UK" width="568" height="562" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/favorite/img-7294-800.webp" srcset="../assets/images/web/favorite/img-7294-800.webp 569w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: New Music Friday Naija" width="569" height="572" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/favorite/img-7295-800.webp" srcset="../assets/images/web/favorite/img-7295-800.webp 300w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: R&amp;B Right Now" width="300" height="300" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/favorite/img-7296-800.webp" srcset="../assets/images/web/favorite/img-7296-800.webp 300w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: New Music Friday Kenya" width="300" height="300" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/favorite/img-7297-800.webp" srcset="../assets/images/web/favorite/img-7297-800.webp 300w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: New Music Friday South Africa" width="300" height="300" loading="lazy" decoding="async"></li>
+  <li><img src="../assets/images/web/favorite/img-7298-800.webp" srcset="../assets/images/web/favorite/img-7298-800.webp 483w" sizes="(max-width: 767px) 60vw, 24vw" alt="Spotify playlist cover: Afro&amp;B" width="483" height="474" loading="lazy" decoding="async"></li>
 </ul><button class="reel-btn next" aria-label="Scroll right"></button></div>
 </div>
 </section>
+<section class="takeaway theme-red-dark" aria-labelledby="takeaway-title">
+  <div class="takeaway-inner">
+  <h2 id="takeaway-title" class="eyebrow">Key takeaway</h2>
+  <p>Consistency compounds. Holding the same positioning for years, even when the market filed the music under a regional tag, is what eventually got it read as R&amp;B first, by curators on four continents.</p>
+  </div>
+</section>
 </main>
-<nav class="pager theme-red-dark" aria-label="Case studies">
-  <a class="prev" href="galatea.html"><span class="visually-hidden">Previous: </span><svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" points="7.3,14.7 2.5,8 7.3,1.2"/></svg><span class="pager-title">Galatea</span></a>
+<nav class="next-case theme-blue" aria-label="More case studies">
+  <a class="next-card" href="before-i-go-away.html">
+    <span class="next-media"><img src="../assets/images/web/covers/before-i-go-away-1600.webp" srcset="../assets/images/web/covers/before-i-go-away-800.webp 800w, ../assets/images/web/covers/before-i-go-away-1600.webp 1600w" sizes="(max-width: 767px) 100vw, 40vw" alt="Before I Go Away cover art: handwritten title on a clear blue sky with a small plane" width="2500" height="2500" loading="lazy" decoding="async"></span>
+    <span class="next-text"><span class="eyebrow">Next case study</span><span class="next-title">Before I Go Away</span><span class="next-focus">Virality · 250K+ streams from two viral cycles</span><span class="next-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></span>
+  </a>
+  <a class="prev-link" href="galatea.html"><svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" points="7.3,14.7 2.5,8 7.3,1.2"/></svg>Previous: Galatea</a>
 </nav>
 <footer class="site-footer theme-dark" id="contact">
   <div class="footer-inner">
@@ -128,6 +141,7 @@
         <p class="footer-note">Currently open to marketing roles in brand strategy and audience growth.</p>
       </div>
       <a class="button button-outline" href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">Download CV</a>
+      <a class="button button-outline" href="../assets/files/Ike-Ngala-Portfolio.pdf" target="_blank" rel="noopener">Portfolio PDF</a>
       <a class="button" href="mailto:ike.ngala@gmail.com">Email me</a>
     </div>
     <dl>

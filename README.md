@@ -23,9 +23,14 @@ assets/
                                scroll fade-ins, counters, clip sound buttons,
                                off-screen video pausing, home hover-cover effect
   files/Ike-Ngala-CV.pdf       CV linked from the header and footer (swap the file to update it)
+  files/Ike-Ngala-Portfolio.pdf One-page A4 summary (made from print/one-pager.html)
+  fonts/                       Manrope + Nunito Sans, self-hosted (SIL Open Font License)
+  images/web/                  Smaller WebP copies of every image (800px and 1600px);
+                               the pages load these, the originals stay for redesigns
   images/posters/              Preview frames shown while each video loads
   images/favicon.svg           Browser tab icon
 404.html                       "Page not found" page
+print/one-pager.html           Source for the portfolio PDF
 CNAME                          Tells GitHub Pages the site lives at ikengala.com
 robots.txt                     Keeps search engines out of the images/videos folder
   images/<page>/               Every image at original resolution
@@ -58,6 +63,22 @@ works straight from your computer.
 
 Netlify, Cloudflare Pages and Vercel also work: drag the folder in or connect the repo,
 with no build command.
+
+## Round 3 additions
+
+- Header stays available: it hides while you scroll down and slides back when you scroll up.
+  "Case studies" opens a menu with all three songs.
+- Home: one-line tagline with View case studies / Download CV buttons, a result line under each
+  project, and a skills section (marketing, tools, languages) built from the CV.
+- Case studies: the first dropdown starts open, a "Key takeaway" closes each one, and a
+  "Next case study" card (with an animated cover) leads on to the next song.
+- Readability: a soft dark gradient behind text over videos; slightly paler body text on Favorite's red.
+- Speed: pages load WebP images sized for the screen (roughly a fifth of the original weight).
+
+### Updating the PDF one-pager
+
+Edit `print/one-pager.html`, open it in Chrome, then Print → Save as PDF (A4, margins none,
+background graphics on) and save over `assets/files/Ike-Ngala-Portfolio.pdf`.
 
 ## Kept out of search results
 

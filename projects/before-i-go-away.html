@@ -17,27 +17,30 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#64a6c9">
 <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/manrope-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/nunito-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/layout/before-i-go-away.css">
 </head>
-<body class="page-before-i-go-away">
+<body class="page-before-i-go-away is-case">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <a class="logo" href="../index.html" aria-label="Ike Ngala, home">IN</a>
   <nav aria-label="Main">
-    <a class="nav-work" href="../index.html#projects">Work</a>
-    <a class="nav-case" href="../projects/before-i-go-away.html" aria-current="page">Before I Go Away</a>
-    <a class="nav-case" href="../projects/galatea.html">Galatea</a>
-    <a class="nav-case" href="../projects/favorite.html">Favorite</a>
+    <div class="nav-menu">
+      <button class="nav-menu-btn" type="button" aria-expanded="false" aria-controls="case-menu" data-current>Case studies</button>
+      <ul class="nav-menu-list" id="case-menu">
+        <li><a href="../projects/before-i-go-away.html" aria-current="page"><img src="../assets/images/web/covers/before-i-go-away-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Before I Go Away</span><span class="menu-focus">Virality</span></span></a></li>
+        <li><a href="../projects/galatea.html"><img src="../assets/images/web/covers/galatea-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Galatea</span><span class="menu-focus">Press</span></span></a></li>
+        <li><a href="../projects/favorite.html"><img src="../assets/images/web/covers/favorite-800.webp" alt="" width="48" height="48" loading="lazy"><span><span class="menu-title">Favorite</span><span class="menu-focus">Long-form brand building</span></span></a></li>
+      </ul>
+    </div>
     <a href="#contact">Contact</a>
-    <a class="nav-cv" href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">CV</a>
+    <a href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">CV</a>
   </nav>
 </header>
 <main id="main">
-<section class="section theme-blue h-custom has-bg-video is-fluid">
+<section class="section theme-blue h-custom has-bg-video scrim is-fluid">
 <video class="bg-video" src="../assets/videos/shared/blue-background.mp4" poster="../assets/images/posters/shared-blue-background.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
 <div class="section-inner">
 <div class="fluid-engine fe-6a3b0c8f1038cd3dc83dadcf">
@@ -47,7 +50,7 @@
 <p class="large blank"><br></p>
 <p class="large"><span class="on-dark">This case study demonstrates my ability to recognize audience signals in real time, and convert them into durable growth, geographic reach, catalog plays, and audience retention.</span></p>
 </div>
-<figure class="fe-block fe-block-yui_3_17_2_1_1782386627382_1240 blk image fit-cover" style="--m-offset-x:-18px;--m-offset-y:-72px;--m-scale-x:1.2;--m-scale-y:1.2"><a href="https://youtu.be/2_dct1jkoIw?si=Oq4PZ6AVF3oIRgYl" target="_blank" rel="noopener"><img src="../assets/images/before-i-go-away/hero-cutout.png" alt="Before I Go Away, handwritten title (links to the YouTube video)" width="666" height="375" loading="lazy"></a></figure>
+<figure class="fe-block fe-block-yui_3_17_2_1_1782386627382_1240 blk image fit-cover" style="--m-offset-x:-18px;--m-offset-y:-72px;--m-scale-x:1.2;--m-scale-y:1.2"><a href="https://youtu.be/2_dct1jkoIw?si=Oq4PZ6AVF3oIRgYl" target="_blank" rel="noopener"><img src="../assets/images/web/before-i-go-away/hero-cutout-800.webp" srcset="../assets/images/web/before-i-go-away/hero-cutout-800.webp 666w" sizes="(max-width: 767px) 100vw, 27vw" alt="Before I Go Away, handwritten title (links to the YouTube video)" width="666" height="375" loading="lazy" decoding="async"></a></figure>
 </div>
 </div>
 </section>
@@ -69,7 +72,7 @@
 <div class="section-inner">
 <div class="fluid-engine fe-6a3d13265cfe4045362829a8">
 <div class="fe-block fe-block-yui_3_17_2_1_1782385920501_6613 blk accordion acc-plus acc-title-left acc-icon-right acc-desc-left" style="--acc-pad-y:30px;--acc-icon:30px;--acc-desc-w:70%">
-<details>
+<details open>
 <summary><span class="acc-title">Trend-Responsive Content Creation</span><span class="acc-icon" aria-hidden="true"></span></summary>
 <div class="details-body">
 <p>During each campaign cycle, TikTok was the main attention driver. Once the track started gaining traction on TikTok, I produced and posted follow-up content built around the same sound, keeping the project inside the platform’s existing momentum rather than competing against it with unrelated content.</p>
@@ -87,23 +90,23 @@
 <div class="section-inner">
 <div class="gallery-strips" style="--gap:0px">
   <div class="strip-row">
-    <figure style="--ratio:0.5625"><img src="../assets/images/before-i-go-away/img-590de304-a452-4620-8165-9ba463829827.jpeg" alt="TikTok still: a man standing on harbour rocks, captioned &quot;Day 49 of posting my music until it reaches my target audience&quot;" width="1080" height="1920" loading="lazy"></figure>
-    <figure style="--ratio:0.9294"><img src="../assets/images/before-i-go-away/img-28632368-8e53-4136-b46e-a1dbc3d2667d.jpeg" alt="TikTok still: a grassy field at dusk, overlaid with Before I Go Away lyrics" width="1080" height="1162" loading="lazy"></figure>
-    <figure style="--ratio:0.8971"><img src="../assets/images/before-i-go-away/img-b4dcdb6d-0630-49e2-ba2d-dfbb04ac6ad2.jpeg" alt="TikTok still: two silhouettes about to kiss in blue light, captioned &quot;enjoy some music as you wait.&quot;" width="942" height="1050" loading="lazy"></figure>
-    <figure style="--ratio:0.8243"><img src="../assets/images/before-i-go-away/img-bbf72021-2391-469b-a72e-59cd2bfc250a.jpeg" alt="TikTok still: a hand raised in blue light, captioned &quot;stop scrolling.&quot;" width="910" height="1104" loading="lazy"></figure>
-    <figure style="--ratio:0.7988"><img src="../assets/images/before-i-go-away/img-91f0a086-df7b-4ed4-9467-454f86199ea6.jpeg" alt="TikTok still from a TV series scene, captioned &quot;If you liked this series&gt;&gt;&quot;" width="1080" height="1352" loading="lazy"></figure>
-    <figure style="--ratio:1.6119"><img src="../assets/images/before-i-go-away/img-76b39af7-6a29-43b7-8ead-67d976f6144f.jpeg" alt="TikTok still: a young man listening to earphones on a train, captioned &quot;Then you&#x27;ll love this song...&quot;" width="1080" height="670" loading="lazy"></figure>
-    <figure style="--ratio:1.7763"><img src="../assets/images/before-i-go-away/img-117029d1-8e75-41fd-802e-625454e92c44.jpeg" alt="TikTok still: a couple facing each other under neon lights, overlaid with Before I Go Away lyrics" width="1080" height="608" loading="lazy"></figure>
+    <figure style="--ratio:0.5625"><img src="../assets/images/web/before-i-go-away/img-590de304-a452-4620-8165-9ba463829827-800.webp" srcset="../assets/images/web/before-i-go-away/img-590de304-a452-4620-8165-9ba463829827-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still: a man standing on harbour rocks, captioned &quot;Day 49 of posting my music until it reaches my target audience&quot;" width="1080" height="1920" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.9294"><img src="../assets/images/web/before-i-go-away/img-28632368-8e53-4136-b46e-a1dbc3d2667d-800.webp" srcset="../assets/images/web/before-i-go-away/img-28632368-8e53-4136-b46e-a1dbc3d2667d-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still: a grassy field at dusk, overlaid with Before I Go Away lyrics" width="1080" height="1162" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.8971"><img src="../assets/images/web/before-i-go-away/img-b4dcdb6d-0630-49e2-ba2d-dfbb04ac6ad2-800.webp" srcset="../assets/images/web/before-i-go-away/img-b4dcdb6d-0630-49e2-ba2d-dfbb04ac6ad2-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still: two silhouettes about to kiss in blue light, captioned &quot;enjoy some music as you wait.&quot;" width="942" height="1050" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.8243"><img src="../assets/images/web/before-i-go-away/img-bbf72021-2391-469b-a72e-59cd2bfc250a-800.webp" srcset="../assets/images/web/before-i-go-away/img-bbf72021-2391-469b-a72e-59cd2bfc250a-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still: a hand raised in blue light, captioned &quot;stop scrolling.&quot;" width="910" height="1104" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.7988"><img src="../assets/images/web/before-i-go-away/img-91f0a086-df7b-4ed4-9467-454f86199ea6-800.webp" srcset="../assets/images/web/before-i-go-away/img-91f0a086-df7b-4ed4-9467-454f86199ea6-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still from a TV series scene, captioned &quot;If you liked this series&gt;&gt;&quot;" width="1080" height="1352" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:1.6119"><img src="../assets/images/web/before-i-go-away/img-76b39af7-6a29-43b7-8ead-67d976f6144f-800.webp" srcset="../assets/images/web/before-i-go-away/img-76b39af7-6a29-43b7-8ead-67d976f6144f-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still: a young man listening to earphones on a train, captioned &quot;Then you&#x27;ll love this song...&quot;" width="1080" height="670" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:1.7763"><img src="../assets/images/web/before-i-go-away/img-117029d1-8e75-41fd-802e-625454e92c44-800.webp" srcset="../assets/images/web/before-i-go-away/img-117029d1-8e75-41fd-802e-625454e92c44-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still: a couple facing each other under neon lights, overlaid with Before I Go Away lyrics" width="1080" height="608" loading="lazy" decoding="async"></figure>
   </div>
   <div class="strip-row">
-    <figure style="--ratio:1.5562"><img src="../assets/images/before-i-go-away/img-321e5779-0068-48a7-bb13-f53741f7b7fa.jpeg" alt="TikTok still from a film scene, captioned &quot;If you loved this movie...&quot;" width="1080" height="694" loading="lazy"></figure>
-    <figure style="--ratio:1.7143"><img src="../assets/images/before-i-go-away/img-f2b79708-1817-4497-9cc3-d67365bff7b7.jpeg" alt="TikTok still: two people browsing records in a shop, captioned &quot;Then you&#x27;ll love this song...&quot;" width="1080" height="630" loading="lazy"></figure>
-    <figure style="--ratio:1.0000"><img src="../assets/images/before-i-go-away/img-5b70acc5-3b62-40d8-a283-e4ec46525dc9.jpeg" alt="TikTok still: a couple walking hand in hand down a cobbled street, overlaid with Before I Go Away lyrics" width="1080" height="1080" loading="lazy"></figure>
+    <figure style="--ratio:1.5562"><img src="../assets/images/web/before-i-go-away/img-321e5779-0068-48a7-bb13-f53741f7b7fa-800.webp" srcset="../assets/images/web/before-i-go-away/img-321e5779-0068-48a7-bb13-f53741f7b7fa-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still from a film scene, captioned &quot;If you loved this movie...&quot;" width="1080" height="694" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:1.7143"><img src="../assets/images/web/before-i-go-away/img-f2b79708-1817-4497-9cc3-d67365bff7b7-800.webp" srcset="../assets/images/web/before-i-go-away/img-f2b79708-1817-4497-9cc3-d67365bff7b7-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still: two people browsing records in a shop, captioned &quot;Then you&#x27;ll love this song...&quot;" width="1080" height="630" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:1.0000"><img src="../assets/images/web/before-i-go-away/img-5b70acc5-3b62-40d8-a283-e4ec46525dc9-800.webp" srcset="../assets/images/web/before-i-go-away/img-5b70acc5-3b62-40d8-a283-e4ec46525dc9-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="TikTok still: a couple walking hand in hand down a cobbled street, overlaid with Before I Go Away lyrics" width="1080" height="1080" loading="lazy" decoding="async"></figure>
   </div>
 </div>
 </div>
 </section>
-<section class="section theme-blue h-small after-divider has-bg-video is-fluid" style="--prev-dh:2vw">
+<section class="section theme-blue h-small after-divider has-bg-video scrim is-fluid" style="--prev-dh:2vw">
 <video class="bg-video" style="filter:opacity(0.7)" src="../assets/videos/before-i-go-away/background-geo.mp4" poster="../assets/images/posters/before-i-go-away-background-geo.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
 <div class="section-inner">
 <div class="fluid-engine fe-6a3d32834b189357338f2fcc">
@@ -136,15 +139,15 @@
 <div class="section-inner">
 <div class="gallery-strips" style="--gap:0px">
   <div class="strip-row">
-    <figure style="--ratio:0.8528"><img src="../assets/images/before-i-go-away/img-7950.jpg" alt="Streaming stats chart for Before I Go Away: 77,087 streams, up 705%, peaking at 5,350 on 28 February 2026" width="1170" height="1372" loading="lazy"></figure>
-    <figure style="--ratio:0.8423"><img src="../assets/images/before-i-go-away/img-7947.jpg" alt="Streaming stats chart for Delusional, peaking on 28 February 2026" width="1170" height="1389" loading="lazy"></figure>
-    <figure style="--ratio:0.8333"><img src="../assets/images/before-i-go-away/img-7948.jpg" alt="Streaming stats chart for Realign, peaking on 28 February 2026" width="1170" height="1404" loading="lazy"></figure>
-    <figure style="--ratio:0.8809"><img src="../assets/images/before-i-go-away/img-7949.jpg" alt="Streaming stats chart for Brown Skin Girl, peaking on 28 February 2026" width="1169" height="1327" loading="lazy"></figure>
+    <figure style="--ratio:0.8528"><img src="../assets/images/web/before-i-go-away/img-7950-800.webp" srcset="../assets/images/web/before-i-go-away/img-7950-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Streaming stats chart for Before I Go Away: 77,087 streams, up 705%, peaking at 5,350 on 28 February 2026" width="1170" height="1372" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.8423"><img src="../assets/images/web/before-i-go-away/img-7947-800.webp" srcset="../assets/images/web/before-i-go-away/img-7947-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Streaming stats chart for Delusional, peaking on 28 February 2026" width="1170" height="1389" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.8333"><img src="../assets/images/web/before-i-go-away/img-7948-800.webp" srcset="../assets/images/web/before-i-go-away/img-7948-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Streaming stats chart for Realign, peaking on 28 February 2026" width="1170" height="1404" loading="lazy" decoding="async"></figure>
+    <figure style="--ratio:0.8809"><img src="../assets/images/web/before-i-go-away/img-7949-800.webp" srcset="../assets/images/web/before-i-go-away/img-7949-800.webp 800w" sizes="(max-width: 767px) 50vw, 30vw" alt="Streaming stats chart for Brown Skin Girl, peaking on 28 February 2026" width="1169" height="1327" loading="lazy" decoding="async"></figure>
   </div>
 </div>
 </div>
 </section>
-<section class="section theme-blue h-small after-divider has-bg-video is-fluid" style="--prev-dh:6vw">
+<section class="section theme-blue h-small after-divider has-bg-video scrim is-fluid" style="--prev-dh:6vw">
 <video class="bg-video" style="filter:opacity(0.7)" src="../assets/videos/shared/blue-background.mp4" poster="../assets/images/posters/shared-blue-background.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
 <div class="section-inner">
 <div class="fluid-engine fe-6a3d29ede750f46e8462f80f">
@@ -184,9 +187,19 @@
 </div>
 </div>
 </section>
+<section class="takeaway theme-blue" aria-labelledby="takeaway-title">
+  <div class="takeaway-inner">
+  <h2 id="takeaway-title" class="eyebrow">Key takeaway</h2>
+  <p>Virality isn’t the strategy, it’s the signal. The work was reading each spike quickly, leaning into the content and markets already responding, and turning a temporary moment into a catalogue audience that stayed.</p>
+  </div>
+</section>
 </main>
-<nav class="pager theme-blue" aria-label="Case studies">
-  <a class="next" href="galatea.html"><span class="visually-hidden">Next: </span><span class="pager-title">Galatea</span><svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" points="1.6,1.2 6.5,7.9 1.6,14.7"/></svg></a>
+<nav class="next-case theme-galatea" aria-label="More case studies">
+  <a class="next-card" href="galatea.html">
+    <span class="next-media"><img src="../assets/images/web/covers/galatea-1600.webp" srcset="../assets/images/web/covers/galatea-800.webp 800w, ../assets/images/web/covers/galatea-1600.webp 1600w" sizes="(max-width: 767px) 100vw, 40vw" alt="Galatea cover art: a man seated in warm sunlight with handwritten title" width="2500" height="2500" loading="lazy" decoding="async"></span>
+    <span class="next-text"><span class="eyebrow">Next case study</span><span class="next-title">Galatea</span><span class="next-focus">Press · 450K+ streams and five press features</span><span class="next-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></span>
+  </a>
+  <a class="prev-link" href="favorite.html"><svg viewBox="0 0 9 16" aria-hidden="true"><polyline fill="none" points="7.3,14.7 2.5,8 7.3,1.2"/></svg>Previous: Favorite</a>
 </nav>
 <footer class="site-footer theme-dark" id="contact">
   <div class="footer-inner">
@@ -196,6 +209,7 @@
         <p class="footer-note">Currently open to marketing roles in brand strategy and audience growth.</p>
       </div>
       <a class="button button-outline" href="../assets/files/Ike-Ngala-CV.pdf" target="_blank" rel="noopener">Download CV</a>
+      <a class="button button-outline" href="../assets/files/Ike-Ngala-Portfolio.pdf" target="_blank" rel="noopener">Portfolio PDF</a>
       <a class="button" href="mailto:ike.ngala@gmail.com">Email me</a>
     </div>
     <dl>

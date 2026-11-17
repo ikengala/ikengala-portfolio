@@ -149,7 +149,7 @@ var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 (function () {
   if (REDUCED || !('IntersectionObserver' in window)) return;
   var targets = document.querySelectorAll(
-    '.fe-block, .strip-row, .gallery-slideshow, .gallery-reel, .glance-facts, .glance-stats li, .results-list li, .results h2, .project-links li');
+    '.fe-block, .strip-row, .gallery-slideshow, .gallery-reel, .glance-facts, .glance-stats li, .results-list li, .results h2, .project-links li, .skills h2, .skills-group, .takeaway-inner');
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (en) {
       if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
@@ -236,4 +236,44 @@ var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       show.querySelector(dx < 0 ? '.slide-btn.next' : '.slide-btn.prev').click();
     });
   });
+})();
+
+// ---------- Header: solid once you scroll, hides going down, reappears going up ----------
+(function () {
+  var header = document.querySelector('.site-header');
+  if (!header) return;
+  var lastY = window.scrollY, ticking = false;
+  function update() {
+    var y = window.scrollY, menuOpen = header.querySelector('.nav-menu.is-open');
+    header.classList.toggle('is-solid', y > 40);
+    if (!menuOpen) header.classList.toggle('is-hidden', y > lastY && y > 200);
+    lastY = y; ticking = false;
+  }
+  window.addEventListener('scroll', function () {
+    if (!ticking) { requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
+  update();
+})();
+
+// ---------- "Case studies" menu: tap/click to open, closes on outside tap or Escape ----------
+(function () {
+  var menu = document.querySelector('.nav-menu');
+  if (!menu) return;
+  var btn = menu.querySelector('.nav-menu-btn');
+  function set(open) { menu.classList.toggle('is-open', open); btn.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+  btn.addEventListener('click', function (e) { e.stopPropagation(); set(!menu.classList.contains('is-open')); });
+  document.addEventListener('click', function (e) { if (!menu.contains(e.target)) set(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { set(false); btn.focus(); } });
+  menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { set(false); }); });
+})();
+
+// ---------- Next case study card animates in ----------
+(function () {
+  var card = document.querySelector('.next-case');
+  if (!card) return;
+  if (REDUCED || !('IntersectionObserver' in window)) { card.classList.add('is-in'); return; }
+  var io = new IntersectionObserver(function (entries) {
+    if (entries[0].isIntersecting) { card.classList.add('is-in'); io.disconnect(); }
+  }, { threshold: 0.25 });
+  io.observe(card);
 })();
